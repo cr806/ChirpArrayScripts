@@ -1,0 +1,1731 @@
+{
+    "ROI_115_1_A": {
+        "label": "115_1_A",
+        "flip": true,
+        "coords": [
+            372,
+            1372
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_115_1_B": {
+        "label": "115_1_B",
+        "flip": false,
+        "coords": [
+            372,
+            1298
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_116_1_A": {
+        "label": "116_1_A",
+        "flip": true,
+        "coords": [
+            750,
+            1372
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_116_1_B": {
+        "label": "116_1_B",
+        "flip": false,
+        "coords": [
+            750,
+            1298
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_117_1_A": {
+        "label": "117_1_A",
+        "flip": true,
+        "coords": [
+            1128,
+            1372
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_117_1_B": {
+        "label": "117_1_B",
+        "flip": false,
+        "coords": [
+            1128,
+            1298
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_118_1_A": {
+        "label": "118_1_A",
+        "flip": true,
+        "coords": [
+            1506,
+            1372
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_118_1_B": {
+        "label": "118_1_B",
+        "flip": false,
+        "coords": [
+            1506,
+            1298
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_124_1_A": {
+        "label": "124_1_A",
+        "flip": true,
+        "coords": [
+            88,
+            1215
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_124_1_B": {
+        "label": "124_1_B",
+        "flip": false,
+        "coords": [
+            88,
+            1141
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_125_1_A": {
+        "label": "125_1_A",
+        "flip": true,
+        "coords": [
+            466,
+            1215
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_125_1_B": {
+        "label": "125_1_B",
+        "flip": false,
+        "coords": [
+            466,
+            1141
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_126_1_A": {
+        "label": "126_1_A",
+        "flip": true,
+        "coords": [
+            844,
+            1215
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_126_1_B": {
+        "label": "126_1_B",
+        "flip": false,
+        "coords": [
+            844,
+            1141
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_127_1_A": {
+        "label": "127_1_A",
+        "flip": true,
+        "coords": [
+            1223,
+            1215
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_127_1_B": {
+        "label": "127_1_B",
+        "flip": false,
+        "coords": [
+            1223,
+            1141
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_135_1_A": {
+        "label": "135_1_A",
+        "flip": true,
+        "coords": [
+            372,
+            1059
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_135_1_B": {
+        "label": "135_1_B",
+        "flip": false,
+        "coords": [
+            372,
+            985
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_136_1_A": {
+        "label": "136_1_A",
+        "flip": true,
+        "coords": [
+            750,
+            1059
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_136_1_B": {
+        "label": "136_1_B",
+        "flip": false,
+        "coords": [
+            750,
+            985
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_137_1_A": {
+        "label": "137_1_A",
+        "flip": true,
+        "coords": [
+            1128,
+            1059
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_137_1_B": {
+        "label": "137_1_B",
+        "flip": false,
+        "coords": [
+            1128,
+            985
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_138_1_A": {
+        "label": "138_1_A",
+        "flip": true,
+        "coords": [
+            1506,
+            1059
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_138_1_B": {
+        "label": "138_1_B",
+        "flip": false,
+        "coords": [
+            1506,
+            985
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_144_1_A": {
+        "label": "144_1_A",
+        "flip": true,
+        "coords": [
+            88,
+            903
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_144_1_B": {
+        "label": "144_1_B",
+        "flip": false,
+        "coords": [
+            88,
+            829
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_145_1_A": {
+        "label": "145_1_A",
+        "flip": true,
+        "coords": [
+            466,
+            903
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_145_1_B": {
+        "label": "145_1_B",
+        "flip": false,
+        "coords": [
+            466,
+            829
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_146_1_A": {
+        "label": "146_1_A",
+        "flip": true,
+        "coords": [
+            844,
+            903
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_146_1_B": {
+        "label": "146_1_B",
+        "flip": false,
+        "coords": [
+            844,
+            829
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_147_1_A": {
+        "label": "147_1_A",
+        "flip": true,
+        "coords": [
+            1223,
+            903
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_147_1_B": {
+        "label": "147_1_B",
+        "flip": false,
+        "coords": [
+            1223,
+            829
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_155_1_A": {
+        "label": "155_1_A",
+        "flip": true,
+        "coords": [
+            372,
+            746
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_155_1_B": {
+        "label": "155_1_B",
+        "flip": false,
+        "coords": [
+            372,
+            672
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_156_1_A": {
+        "label": "156_1_A",
+        "flip": true,
+        "coords": [
+            750,
+            746
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_156_1_B": {
+        "label": "156_1_B",
+        "flip": false,
+        "coords": [
+            750,
+            672
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_157_1_A": {
+        "label": "157_1_A",
+        "flip": true,
+        "coords": [
+            1128,
+            746
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_157_1_B": {
+        "label": "157_1_B",
+        "flip": false,
+        "coords": [
+            1128,
+            672
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_158_1_A": {
+        "label": "158_1_A",
+        "flip": true,
+        "coords": [
+            1506,
+            746
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_158_1_B": {
+        "label": "158_1_B",
+        "flip": false,
+        "coords": [
+            1506,
+            672
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_164_1_A": {
+        "label": "164_1_A",
+        "flip": true,
+        "coords": [
+            88,
+            590
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_164_1_B": {
+        "label": "164_1_B",
+        "flip": false,
+        "coords": [
+            88,
+            516
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_165_1_A": {
+        "label": "165_1_A",
+        "flip": true,
+        "coords": [
+            466,
+            590
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_165_1_B": {
+        "label": "165_1_B",
+        "flip": false,
+        "coords": [
+            466,
+            516
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_166_1_A": {
+        "label": "166_1_A",
+        "flip": true,
+        "coords": [
+            844,
+            590
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_166_1_B": {
+        "label": "166_1_B",
+        "flip": false,
+        "coords": [
+            844,
+            516
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_167_1_A": {
+        "label": "167_1_A",
+        "flip": true,
+        "coords": [
+            1223,
+            590
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_167_1_B": {
+        "label": "167_1_B",
+        "flip": false,
+        "coords": [
+            1223,
+            516
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_175_1_A": {
+        "label": "175_1_A",
+        "flip": true,
+        "coords": [
+            372,
+            434
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_175_1_B": {
+        "label": "175_1_B",
+        "flip": false,
+        "coords": [
+            372,
+            360
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_176_1_A": {
+        "label": "176_1_A",
+        "flip": true,
+        "coords": [
+            750,
+            434
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_176_1_B": {
+        "label": "176_1_B",
+        "flip": false,
+        "coords": [
+            750,
+            360
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_177_1_A": {
+        "label": "177_1_A",
+        "flip": true,
+        "coords": [
+            1128,
+            434
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_177_1_B": {
+        "label": "177_1_B",
+        "flip": false,
+        "coords": [
+            1128,
+            360
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_178_1_A": {
+        "label": "178_1_A",
+        "flip": true,
+        "coords": [
+            1506,
+            434
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_178_1_B": {
+        "label": "178_1_B",
+        "flip": false,
+        "coords": [
+            1506,
+            360
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_184_1_A": {
+        "label": "184_1_A",
+        "flip": true,
+        "coords": [
+            88,
+            277
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_184_1_B": {
+        "label": "184_1_B",
+        "flip": false,
+        "coords": [
+            88,
+            203
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_185_1_A": {
+        "label": "185_1_A",
+        "flip": true,
+        "coords": [
+            466,
+            277
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_185_1_B": {
+        "label": "185_1_B",
+        "flip": false,
+        "coords": [
+            466,
+            203
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_186_1_A": {
+        "label": "186_1_A",
+        "flip": true,
+        "coords": [
+            844,
+            277
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_186_1_B": {
+        "label": "186_1_B",
+        "flip": false,
+        "coords": [
+            844,
+            203
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_187_1_A": {
+        "label": "187_1_A",
+        "flip": true,
+        "coords": [
+            1223,
+            277
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_187_1_B": {
+        "label": "187_1_B",
+        "flip": false,
+        "coords": [
+            1223,
+            203
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_195_1_A": {
+        "label": "195_1_A",
+        "flip": true,
+        "coords": [
+            372,
+            121
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_195_1_B": {
+        "label": "195_1_B",
+        "flip": false,
+        "coords": [
+            372,
+            47
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_196_1_A": {
+        "label": "196_1_A",
+        "flip": true,
+        "coords": [
+            750,
+            121
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_196_1_B": {
+        "label": "196_1_B",
+        "flip": false,
+        "coords": [
+            750,
+            47
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_197_1_A": {
+        "label": "197_1_A",
+        "flip": true,
+        "coords": [
+            1128,
+            121
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_197_1_B": {
+        "label": "197_1_B",
+        "flip": false,
+        "coords": [
+            1128,
+            47
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_198_1_A": {
+        "label": "198_1_A",
+        "flip": true,
+        "coords": [
+            1506,
+            121
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_198_1_B": {
+        "label": "198_1_B",
+        "flip": false,
+        "coords": [
+            1506,
+            47
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_114_2_A": {
+        "label": "114_2_A",
+        "flip": true,
+        "coords": [
+            183,
+            1372
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_114_2_B": {
+        "label": "114_2_B",
+        "flip": false,
+        "coords": [
+            183,
+            1298
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_115_2_A": {
+        "label": "115_2_A",
+        "flip": true,
+        "coords": [
+            561,
+            1372
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_115_2_B": {
+        "label": "115_2_B",
+        "flip": false,
+        "coords": [
+            561,
+            1298
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_116_2_A": {
+        "label": "116_2_A",
+        "flip": true,
+        "coords": [
+            939,
+            1372
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_116_2_B": {
+        "label": "116_2_B",
+        "flip": false,
+        "coords": [
+            939,
+            1298
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_117_2_A": {
+        "label": "117_2_A",
+        "flip": true,
+        "coords": [
+            1317,
+            1372
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_117_2_B": {
+        "label": "117_2_B",
+        "flip": false,
+        "coords": [
+            1317,
+            1298
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_124_2_A": {
+        "label": "124_2_A",
+        "flip": true,
+        "coords": [
+            277,
+            1215
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_124_2_B": {
+        "label": "124_2_B",
+        "flip": false,
+        "coords": [
+            277,
+            1141
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_125_2_A": {
+        "label": "125_2_A",
+        "flip": true,
+        "coords": [
+            655,
+            1215
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_125_2_B": {
+        "label": "125_2_B",
+        "flip": false,
+        "coords": [
+            655,
+            1141
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_126_2_A": {
+        "label": "126_2_A",
+        "flip": true,
+        "coords": [
+            1033,
+            1215
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_126_2_B": {
+        "label": "126_2_B",
+        "flip": false,
+        "coords": [
+            1033,
+            1141
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_127_2_A": {
+        "label": "127_2_A",
+        "flip": true,
+        "coords": [
+            1412,
+            1215
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_127_2_B": {
+        "label": "127_2_B",
+        "flip": false,
+        "coords": [
+            1412,
+            1141
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_134_2_A": {
+        "label": "134_2_A",
+        "flip": true,
+        "coords": [
+            183,
+            1059
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_134_2_B": {
+        "label": "134_2_B",
+        "flip": false,
+        "coords": [
+            183,
+            985
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_135_2_A": {
+        "label": "135_2_A",
+        "flip": true,
+        "coords": [
+            561,
+            1059
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_135_2_B": {
+        "label": "135_2_B",
+        "flip": false,
+        "coords": [
+            561,
+            985
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_136_2_A": {
+        "label": "136_2_A",
+        "flip": true,
+        "coords": [
+            939,
+            1059
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_136_2_B": {
+        "label": "136_2_B",
+        "flip": false,
+        "coords": [
+            939,
+            985
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_137_2_A": {
+        "label": "137_2_A",
+        "flip": true,
+        "coords": [
+            1317,
+            1059
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_137_2_B": {
+        "label": "137_2_B",
+        "flip": false,
+        "coords": [
+            1317,
+            985
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_144_2_A": {
+        "label": "144_2_A",
+        "flip": true,
+        "coords": [
+            277,
+            903
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_144_2_B": {
+        "label": "144_2_B",
+        "flip": false,
+        "coords": [
+            277,
+            829
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_145_2_A": {
+        "label": "145_2_A",
+        "flip": true,
+        "coords": [
+            655,
+            903
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_145_2_B": {
+        "label": "145_2_B",
+        "flip": false,
+        "coords": [
+            655,
+            829
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_146_2_A": {
+        "label": "146_2_A",
+        "flip": true,
+        "coords": [
+            1033,
+            903
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_146_2_B": {
+        "label": "146_2_B",
+        "flip": false,
+        "coords": [
+            1033,
+            829
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_147_2_A": {
+        "label": "147_2_A",
+        "flip": true,
+        "coords": [
+            1412,
+            903
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_147_2_B": {
+        "label": "147_2_B",
+        "flip": false,
+        "coords": [
+            1412,
+            829
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_154_2_A": {
+        "label": "154_2_A",
+        "flip": true,
+        "coords": [
+            183,
+            746
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_154_2_B": {
+        "label": "154_2_B",
+        "flip": false,
+        "coords": [
+            183,
+            672
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_155_2_A": {
+        "label": "155_2_A",
+        "flip": true,
+        "coords": [
+            561,
+            746
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_155_2_B": {
+        "label": "155_2_B",
+        "flip": false,
+        "coords": [
+            561,
+            672
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_156_2_A": {
+        "label": "156_2_A",
+        "flip": true,
+        "coords": [
+            939,
+            746
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_156_2_B": {
+        "label": "156_2_B",
+        "flip": false,
+        "coords": [
+            939,
+            672
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_157_2_A": {
+        "label": "157_2_A",
+        "flip": true,
+        "coords": [
+            1317,
+            746
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_157_2_B": {
+        "label": "157_2_B",
+        "flip": false,
+        "coords": [
+            1317,
+            672
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_164_2_A": {
+        "label": "164_2_A",
+        "flip": true,
+        "coords": [
+            277,
+            590
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_164_2_B": {
+        "label": "164_2_B",
+        "flip": false,
+        "coords": [
+            277,
+            516
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_165_2_A": {
+        "label": "165_2_A",
+        "flip": true,
+        "coords": [
+            655,
+            590
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_165_2_B": {
+        "label": "165_2_B",
+        "flip": false,
+        "coords": [
+            655,
+            516
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_166_2_A": {
+        "label": "166_2_A",
+        "flip": true,
+        "coords": [
+            1033,
+            590
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_166_2_B": {
+        "label": "166_2_B",
+        "flip": false,
+        "coords": [
+            1033,
+            516
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_167_2_A": {
+        "label": "167_2_A",
+        "flip": true,
+        "coords": [
+            1412,
+            590
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_167_2_B": {
+        "label": "167_2_B",
+        "flip": false,
+        "coords": [
+            1412,
+            516
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_174_2_A": {
+        "label": "174_2_A",
+        "flip": true,
+        "coords": [
+            183,
+            434
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_174_2_B": {
+        "label": "174_2_B",
+        "flip": false,
+        "coords": [
+            183,
+            360
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_175_2_A": {
+        "label": "175_2_A",
+        "flip": true,
+        "coords": [
+            561,
+            434
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_175_2_B": {
+        "label": "175_2_B",
+        "flip": false,
+        "coords": [
+            561,
+            360
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_176_2_A": {
+        "label": "176_2_A",
+        "flip": true,
+        "coords": [
+            939,
+            434
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_176_2_B": {
+        "label": "176_2_B",
+        "flip": false,
+        "coords": [
+            939,
+            360
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_177_2_A": {
+        "label": "177_2_A",
+        "flip": true,
+        "coords": [
+            1317,
+            434
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_177_2_B": {
+        "label": "177_2_B",
+        "flip": false,
+        "coords": [
+            1317,
+            360
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_184_2_A": {
+        "label": "184_2_A",
+        "flip": true,
+        "coords": [
+            277,
+            277
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_184_2_B": {
+        "label": "184_2_B",
+        "flip": false,
+        "coords": [
+            277,
+            203
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_185_2_A": {
+        "label": "185_2_A",
+        "flip": true,
+        "coords": [
+            655,
+            277
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_185_2_B": {
+        "label": "185_2_B",
+        "flip": false,
+        "coords": [
+            655,
+            203
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_186_2_A": {
+        "label": "186_2_A",
+        "flip": true,
+        "coords": [
+            1033,
+            277
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_186_2_B": {
+        "label": "186_2_B",
+        "flip": false,
+        "coords": [
+            1033,
+            203
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_187_2_A": {
+        "label": "187_2_A",
+        "flip": true,
+        "coords": [
+            1412,
+            277
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_187_2_B": {
+        "label": "187_2_B",
+        "flip": false,
+        "coords": [
+            1412,
+            203
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_194_2_A": {
+        "label": "194_2_A",
+        "flip": true,
+        "coords": [
+            183,
+            121
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_194_2_B": {
+        "label": "194_2_B",
+        "flip": false,
+        "coords": [
+            183,
+            47
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_195_2_A": {
+        "label": "195_2_A",
+        "flip": true,
+        "coords": [
+            561,
+            121
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_195_2_B": {
+        "label": "195_2_B",
+        "flip": false,
+        "coords": [
+            561,
+            47
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_196_2_A": {
+        "label": "196_2_A",
+        "flip": true,
+        "coords": [
+            939,
+            121
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_196_2_B": {
+        "label": "196_2_B",
+        "flip": false,
+        "coords": [
+            939,
+            47
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_197_2_A": {
+        "label": "197_2_A",
+        "flip": true,
+        "coords": [
+            1317,
+            121
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "ROI_197_2_B": {
+        "label": "197_2_B",
+        "flip": false,
+        "coords": [
+            1317,
+            47
+        ],
+        "size": [
+            181,
+            74
+        ]
+    },
+    "image_angle": -0.0
+}

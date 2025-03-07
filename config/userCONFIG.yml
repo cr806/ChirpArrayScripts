@@ -1,0 +1,40 @@
+###############################################################################
+###############################################################################
+#                                Configuration                                #
+#                       Author: Christopher Reardon                           #
+#                               Date 12/11/2024                               #
+#                    Description: Configuration Parameters                    #
+#                          Project: Phorest Analysis                          #
+#                                                                             #
+#                        Script Designed for Python 3                         #
+#           © Copyright Christopher Reardon, Josh Male, PhorestDX             #
+#                                                                             #
+#                         Software Release: Unreleased                        #
+###############################################################################
+###############################################################################
+
+# Sensor:
+GMR_ID: Campden  # We can ignore this, it just tracks the GMR of old boxes
+SENSOR_SERIAL_NUMBER: 000001
+SETUP_SERIAL_NUMBER: 000001
+SENSOR_TYPE: UoY
+
+# Data:
+ROOT_PATH: /Volumes/krauss/Lisa/GMR/Array/250206/Experiment_1_ethanol/loc1_1/20250206
+DATA_PATH_FORMAT: date
+IMAGE_TYPE: png
+SAVE_PATH: /Volumes/krauss/Lisa/GMR/Array/250206/Experiment_1_ethanol
+FIGURE_FILENAME: Lisa_ChirpArray_Ethanol
+
+# Image:
+IMAGES_METADATA_PATH: image_metadata_SU000001_CHRIS.json
+ROI_METADATA_PATH: ROI_SU000001.json
+ANALYSIS_METHOD: max_intensity
+# ANALYSIS_METHOD: centre
+# ANALYSIS_METHOD: gaussian
+# ANALYSIS_METHOD: fano
+NUMBER_SUB_ROIS: 10  # use 0 to indicate all rows
+
+# Device:
+DEVICE_SERIAL_NUMBER: '000016'
+MEASUREMENT_INTERVAL: 60
