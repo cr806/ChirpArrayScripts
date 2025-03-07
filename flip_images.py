@@ -16,7 +16,7 @@ def flip_single_image(args):
             flipped_img = Image.fromarray(flipped_array)
             flipped_img.save(output_full_path)
 
-        with shared_counter.get_lock():  # Ensure thread-safe increment
+        with shared_counter:  # Ensure thread-safe increment
             shared_counter.value += 1
             if shared_counter.value % 20 == 0:
                 print(f"Processed {counter.value} images so far...")
