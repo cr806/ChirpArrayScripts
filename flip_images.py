@@ -1,9 +1,13 @@
 import numpy as np
 from PIL import Image
 from pathlib import Path
-from multiprocessing import Pool
+from multiprocessing import Pool, Manager
 
-def flip_single_image(args, counter):
+def init_pool(counter):
+    global shared_counter
+    shared_counter = counter
+
+def flip_single_image(args):
     input_path, output_path = args
     try:
         with Image.open(input_path) as img:
@@ -12,9 +16,9 @@ def flip_single_image(args, counter):
             flipped_img = Image.fromarray(flipped_array)
             flipped_img.save(output_path)
 
-        with counter.get_lock():  # Ensure thread-safe increment
-            counter.value += 1
-            if counter.value % 20 == 0:
+        with shared_counter.get_lock():  # Ensure thread-safe increment
+            shared_counter.value += 1
+            if shared_counter.value % 20 == 0:
                 print(f"Processed {counter.value} images so far...")
         return True
     except Exception as e:
@@ -23,10 +27,11 @@ def flip_single_image(args, counter):
 
 def flip_images_parallel(input_path, output_path):
     output_path.mkdir(parents=True, exist_ok=True)
-    
-    # Shared counter for tracking progress
-    counter = Value('i', 0)  # 'i' for integer, initialized to 0
-    
+
+    # User Manager to create a shared counter for tracking progress
+    manager = Manager()
+    counter = manager.Value('i', 0)  # 'i' for integer, initialized to 0
+
     # Prepare list of tasks
     tasks = []
     for filepath in input_path.glob('*.tif'):
@@ -35,10 +40,8 @@ def flip_images_parallel(input_path, output_path):
 
     # Process images in parallel with progress tracking
     print(f"Starting to process {len(tasks)} images...")
-    with Pool() as pool:
-        # Use partial to pass the counter to the worker function
-        flip_with_counter = partial(flip_single_image, counter=counter)
-        results = pool.map(flip_with_counter, tasks)
+    with Pool(initalizer=init_pool, initargs=(counter,)) as pool:
+        results = pool.map(flip_single_image, tasks)
 
     processed_count = sum(results)
     print(f'Completed! Processed {processed_count} images.')
