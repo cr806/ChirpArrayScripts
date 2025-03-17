@@ -21,10 +21,10 @@ from src.Config_loader import load_user_config
 # Set up root path
 root = Path().absolute()
 
-user_config_filepath = Path('..', 'config', 'userCONFIG.yml')
+user_config_filepath = Path('config', 'userCONFIG.yml')
 config_data = load_user_config(user_config_filepath)
 
-data_path = Path(config_data.ROOT_PATH)
+data_path = Path(config_data.ROOT_PATH, 'part1')
 image_type = config_data.IMAGE_TYPE.value
 sensor_ID = str(config_data.SENSOR_SERIAL_NUMBER).zfill(6)
 setup_ID = str(config_data.SETUP_SERIAL_NUMBER).zfill(6)

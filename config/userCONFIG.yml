@@ -20,20 +20,20 @@ SETUP_SERIAL_NUMBER: 000001
 SENSOR_TYPE: UoY
 
 # Data:
-ROOT_PATH: /Volumes/krauss/Lisa/GMR/Array/250206/Experiment_1_ethanol/loc1_1/20250206
+ROOT_PATH: /Volumes/krauss/Lisa/GMR/Array/250225/loc1_1/Split
 DATA_PATH_FORMAT: date
 IMAGE_TYPE: png
-SAVE_PATH: /Volumes/krauss/Lisa/GMR/Array/250206/Experiment_1_ethanol
+SAVE_PATH: /Volumes/krauss/Lisa/GMR/Array/250225/loc1_1/Split
 FIGURE_FILENAME: Lisa_ChirpArray_Ethanol
 
 # Image:
-IMAGES_METADATA_PATH: image_metadata_SU000001_CHRIS.json
+IMAGES_METADATA_PATH: image_metadata_SU000001.json
 ROI_METADATA_PATH: ROI_SU000001.json
-ANALYSIS_METHOD: max_intensity
+# ANALYSIS_METHOD: max_intensity
 # ANALYSIS_METHOD: centre
-# ANALYSIS_METHOD: gaussian
+ANALYSIS_METHOD: gaussian
 # ANALYSIS_METHOD: fano
-NUMBER_SUB_ROIS: 10  # use 0 to indicate all rows
+NUMBER_SUB_ROIS: 0  # use 0 to indicate all rows
 
 # Device:
 DEVICE_SERIAL_NUMBER: '000016'
