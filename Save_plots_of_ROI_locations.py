@@ -8,15 +8,15 @@ import itertools
 from pathlib import Path
 
 
-file_path = Path('part1', f'img_{0:09d}_Default_000.tif')
-root_path = Path('/Volumes/krauss/Lisa/GMR/Array/250225/loc1_1/Split')
+file_path = Path('Pos0', f'img_{0:09d}_Default_000.tif')
+root_path = Path('/Volumes/krauss/Lisa/GMR/Array/250318/sensor_1_CRP/loc1_sensor1_1')
 img_path = Path(root_path, file_path)
 save_path = Path(root_path)
 
 raw_im = cv.imread(img_path, cv.IMREAD_UNCHANGED)
 raw_im = cv.normalize(raw_im, None, 0, 255, cv.NORM_MINMAX, dtype=cv.CV_8U)  # Normalize to 8-bit range (0-255)
 
-ROI_path = Path('ROI_ChirpArray.json')
+ROI_path = Path(root_path, 'ROI_ChirpArray.json')
 with open(ROI_path, 'r') as file:
     ROIs = json.load(file)
 

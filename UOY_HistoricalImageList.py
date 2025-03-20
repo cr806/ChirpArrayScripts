@@ -24,7 +24,7 @@ root = Path().absolute()
 user_config_filepath = Path('config', 'userCONFIG.yml')
 config_data = load_user_config(user_config_filepath)
 
-data_path = Path(config_data.ROOT_PATH, 'part1')
+data_path = Path(config_data.ROOT_PATH, 'Pos0')
 image_type = config_data.IMAGE_TYPE.value
 sensor_ID = str(config_data.SENSOR_SERIAL_NUMBER).zfill(6)
 setup_ID = str(config_data.SETUP_SERIAL_NUMBER).zfill(6)

@@ -4,8 +4,8 @@ from pathlib import Path
 
 num_of_files = 14
 
-input_json_path = Path('/Volumes/krauss/Lisa/GMR/Array/250225/loc1_1/Split')
-data_json_name = Path('ROI_SU000001.json')
+input_json_path = Path('/Volumes/krauss/Lisa/GMR/Array/250318/sensor_3_Ecoli/loc1_sensor2_1')
+data_json_name = Path('ROI_ChirpArray.json')
 
 output_path = input_json_path
 output_path.mkdir(parents=True, exist_ok=True)

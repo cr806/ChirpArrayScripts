@@ -20,10 +20,10 @@ SETUP_SERIAL_NUMBER: 000001
 SENSOR_TYPE: UoY
 
 # Data:
-ROOT_PATH: /Volumes/krauss/Lisa/GMR/Array/250225/loc1_1/Split
+ROOT_PATH: /Volumes/krauss/Lisa/GMR/Array/250318/sensor_3_Ecoli/loc1_sensor2_1 
 DATA_PATH_FORMAT: date
 IMAGE_TYPE: png
-SAVE_PATH: /Volumes/krauss/Lisa/GMR/Array/250225/loc1_1/Split
+SAVE_PATH: /Volumes/krauss/Lisa/GMR/Array/250318/sensor_3_Ecoli/loc1_sensor2_1
 FIGURE_FILENAME: Lisa_ChirpArray_Ethanol
 
 # Image:

@@ -8,18 +8,18 @@ from matplotlib.animation import FFMpegWriter
 from matplotlib.offsetbox import AnchoredText
 
 
-root = Path('/Volumes/krauss/Lisa/GMR/Array/250225/loc1_1')
-img_dir = Path(root, 'Split/part1')
-roi_json_path = Path(root, 'Split/ROI_SU000001.json')
+root = Path('/Volumes/krauss/Lisa/GMR/Array/250318/sensor_1_CRP/loc1_sensor1_1')
+img_dir = Path(root, 'Pos0')
+roi_json_path = Path(root, 'ROI_ChirpArray.json')
 
 starting_img_num = 0
-ending_img_num = 443
+ending_img_num = 885
 
 
 writer = FFMpegWriter(fps=30)
 
 file_path = Path(f'img_{starting_img_num:09d}_Default_000.tif')
-video_filepath = Path(root, 'Results', 'Chirp_video.mp4')
+video_filepath = Path(root, 'Results', 'Chip_overview_video.mp4')
 
 with open(roi_json_path, 'r') as file:
     ROIs = json.load(file)
