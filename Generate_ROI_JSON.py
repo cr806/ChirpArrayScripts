@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 from typing import List, Dict, Tuple, Union, Any, Optional
 
-from src.Locator_functions import process_config_files, vector_relative_to_origin, find_all_labels
+from src.Locator_functions import process_config_files, vector_relative_to_origin, find_all_labels, scale_vector
 
 
 def generate_ROI_file(image_feature_path: Union[str, Path],
@@ -99,7 +99,7 @@ def generate_ROI_file(image_feature_path: Union[str, Path],
 
 
 if __name__ == '__main__':
-    expt_path = Path('/Volumes/krauss/Lisa/GMR/Array/250225/loc1_1/Split/part1')
+    expt_path = Path('/Volumes/krauss/Lisa/GMR/Array/250318/sensor_3_Ecoli/loc1_sensor2_1/Pos0')
     img_data_json_name = 'image_metadata_SU000001.json'
 
     img_data = pd.read_json(Path(expt_path, img_data_json_name))
@@ -129,16 +129,21 @@ if __name__ == '__main__':
         rotation_matrix = cv.getRotationMatrix2D(rot_centre, -image_angle, 1.0)
         im = cv.warpAffine(im, rotation_matrix, (w, h))
 
-        find_all_labels(im, img_data.iloc[0],
-                        user_feature_list_path,
-                        image_feature_path,
-                        chip_map_path, template_path,
-                        user_scale_factor)
+        scale_factor, _, _ = find_all_labels(im, img_data.iloc[0],
+                                             user_feature_list_path,
+                                             image_feature_path,
+                                             chip_map_path, template_path,
+                                             user_scale_factor)
+
+    if scale_factor < 0.7 or scale_factor > 0.8:
+        print(f'Unexpected scale-factor: {scale_factor}')
+        print(f'[Optional] Run script again with overwridden scale_factor = 0.73')
+        exit(1)
 
     ROIs = generate_ROI_file(image_feature_path,
-                            user_feature_list_path,
-                            chip_map_path,
-                            ROI_path,
-                            im.shape,
-                            scale_factor,
-                            image_angle)
+                             user_feature_list_path,
+                             chip_map_path,
+                             ROI_path,
+                             im.shape,
+                             scale_factor,
+                             image_angle)
