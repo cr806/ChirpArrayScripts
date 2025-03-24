@@ -1,0 +1,19 @@
+{
+    "chip_type": "IMEC-II_2",
+    "features": [
+        {
+            "label": "D-Right",
+            "feature_location": [
+                1749,
+                889
+            ]
+        },
+        {
+            "label": "E-Right",
+            "feature_location": [
+                1757,
+                166
+            ]
+        }
+    ]
+}
