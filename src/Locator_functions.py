@@ -40,7 +40,7 @@ def find_label(target: np.ndarray, scale_factor: Tuple[float, float], params: Di
     template_path = params['template_path']
 
     template = cv.imread(template_path, 0)
-    template = cv.resize(template, (0, 0), fx=scale_factor[1], fy=scale_factor[0])
+    template = cv.resize(template, (0, 0), fx=scale_factor, fy=scale_factor)
 
     method = cv.TM_CCOEFF_NORMED
 

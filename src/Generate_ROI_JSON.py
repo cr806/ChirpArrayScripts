@@ -9,15 +9,15 @@ from typing import List, Dict, Tuple, Union, Any, Optional
 from src.Locator_functions import process_config_files, vector_relative_to_origin, find_all_labels, scale_vector
 
 
-def generate_ROI_file(image_feature_path: Union[str, Path],
-                      user_feature_list_path: Union[str, Path],
-                      chip_map_path: Union[str, Path],
-                      ROI_path: Union[str, Path],
-                      target_shape: Tuple[int, int],
-                      scale_factor: float,
-                      image_angle: float
-                     ) -> Dict[str,
-                               Union[Dict[str, Union[str, bool, List[int]]], float]]:
+def generate_ROI_data_and_save(image_feature_path: Union[str, Path],
+                               user_feature_list_path: Union[str, Path],
+                               chip_map_path: Union[str, Path],
+                               ROI_path: Union[str, Path],
+                               target_shape: Tuple[int, int],
+                               scale_factor: float,
+                               image_angle: float
+                              ) -> Dict[str,
+                                        Union[Dict[str, Union[str, bool, List[int]]], float]]:
     """
     Generate a Region of Interest (ROI) file from image features and chip map data.
 
@@ -41,7 +41,6 @@ def generate_ROI_file(image_feature_path: Union[str, Path],
 
     image_feature_details, _, chip_map = process_config_files(
             image_feature_path, user_feature_list_path, chip_map_path)
-    # assert image_feature_details == None, '[ERROR]: image_features_details still None'
 
     # Filter chip map to only the gratings and their locations, sizes
     chip_gratings = chip_map.get("gratings", None)
@@ -98,23 +97,20 @@ def generate_ROI_file(image_feature_path: Union[str, Path],
     return ROIs
 
 
-if __name__ == '__main__':
-    expt_path = Path('/Volumes/krauss/Lisa/GMR/Array/250318/sensor_3_Ecoli/loc1_sensor2_1/Pos0')
-    img_data_json_name = 'image_metadata_SU000001.json'
+def generate_ROI_JSON(path_to_images, img_metadata_json,
+                      ROI_path, user_scale_factor):
 
-    img_data = pd.read_json(Path(expt_path, img_data_json_name))
+    user_feature_list_path = Path('config','FeatureLocation.json')
+    image_feature_path = Path('Generated_files', 'ImageFeatures.csv')
+    chip_map_path = Path('Label_templates', 'Chip_map.json')
+    template_path = Path('Label_templates', 'IMECII', 'IMEC-II_2')
+
+    img_data = pd.read_json(Path(img_metadata_json))
     img_data = img_data.T.reset_index(drop=True)
 
     img_path = Path(img_data['Root Path'][0], img_data['File Path'][0])
     im = cv.imread(img_path, cv.IMREAD_UNCHANGED)
     im = cv.normalize(im, None, 0, 255, cv.NORM_MINMAX, dtype=cv.CV_8U) # Normalize to 8-bit range (0-255)
-
-    user_feature_list_path = Path('FeatureLocation.json')
-    image_feature_path = Path('ImageFeatures.csv')
-    chip_map_path = Path('Label_templates/Chip_map.json')
-    template_path = Path('Label_templates/IMECII/IMEC-II_2')
-    ROI_path = Path('ROI_ChirpArray.json')
-    user_scale_factor = (0.75, 0.75)  # Template to image (i.e. template larger than image feature)
 
     scale_factor, image_angle, _ = find_all_labels(im, img_data.iloc[0],
                                                 user_feature_list_path,
@@ -135,15 +131,24 @@ if __name__ == '__main__':
                                              chip_map_path, template_path,
                                              user_scale_factor)
 
-    if scale_factor < 0.7 or scale_factor > 0.8:
+    if scale_factor < (0.95 * user_scale_factor) or scale_factor > (1.05 * user_scale_factor):
         print(f'Unexpected scale-factor: {scale_factor}')
-        print(f'[Optional] Run script again with overwridden scale_factor = 0.73')
-        exit(1)
+        print(f'Setting to user specified scale factor and continuing...')
+        scale_factor = user_scale_factor
 
-    ROIs = generate_ROI_file(image_feature_path,
-                             user_feature_list_path,
-                             chip_map_path,
-                             ROI_path,
-                             im.shape,
-                             scale_factor,
-                             image_angle)
+    generate_ROI_data_and_save(image_feature_path,
+                               user_feature_list_path,
+                               chip_map_path,
+                               ROI_path,
+                               im.shape,
+                               scale_factor,
+                               image_angle)
+
+if __name__ == '__main__':
+    path_to_images = Path('/Volumes/krauss/Lisa/GMR/Array/250318/sensor_3_Ecoli/loc1_sensor2_1/Pos0')
+    img_metadata_json = 'image_metadata_SU000001.json'
+    ROI_path = Path('ROI_ChirpArray.json')
+    user_scale_factor = 0.75  # Template to image (i.e. template larger than image feature)
+
+    generate_ROI_JSON(path_to_images, img_metadata_json,
+                      ROI_path, user_scale_factor)
