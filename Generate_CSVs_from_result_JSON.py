@@ -1,32 +1,33 @@
 import json
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-
+import sys
 from pathlib import Path
-from typing import Dict, Union, List, Any
+from typing import Any, Dict, List
+
+import pandas as pd
 
 root = Path('/Volumes/krauss/Lisa/GMR/Array/250225/loc1_1')
 parent_filepath = Path(root, 'Split/part1')
-filenames = [Path('image_metadata_SU000001_1.json'),
-             Path('image_metadata_SU000001_2.json'),
-             Path('image_metadata_SU000001_3.json'),
-             Path('image_metadata_SU000001_4.json'),
-             Path('image_metadata_SU000001_5.json'),
-             Path('image_metadata_SU000001_6.json'),
-             Path('image_metadata_SU000001_7.json'),
-             Path('image_metadata_SU000001_8.json'),
-             Path('image_metadata_SU000001_9.json'),
-             Path('image_metadata_SU000001_10.json'),
-             Path('image_metadata_SU000001_11.json'),
-             Path('image_metadata_SU000001_12.json'),
-             Path('image_metadata_SU000001_13.json'),
-             Path('image_metadata_SU000001_14.json')]
+filenames = [
+    Path('image_metadata_SU000001_1.json'),
+    Path('image_metadata_SU000001_2.json'),
+    Path('image_metadata_SU000001_3.json'),
+    Path('image_metadata_SU000001_4.json'),
+    Path('image_metadata_SU000001_5.json'),
+    Path('image_metadata_SU000001_6.json'),
+    Path('image_metadata_SU000001_7.json'),
+    Path('image_metadata_SU000001_8.json'),
+    Path('image_metadata_SU000001_9.json'),
+    Path('image_metadata_SU000001_10.json'),
+    Path('image_metadata_SU000001_11.json'),
+    Path('image_metadata_SU000001_12.json'),
+    Path('image_metadata_SU000001_13.json'),
+    Path('image_metadata_SU000001_14.json'),
+]
 
 out_filepath = Path(root, 'Results')
 
 
-def rotate_JSON_by_ROI(json_file_path: str) -> Dict[str, List[Dict[str, Any]]]:
+def rotate_JSON_by_ROI(json_file_path: Path) -> Dict[str, List[Dict[str, Any]]]:
     """
     Rotates a JSON file containing image data, reorganizing it by ROI instead of image.
 
@@ -48,27 +49,30 @@ def rotate_JSON_by_ROI(json_file_path: str) -> Dict[str, List[Dict[str, Any]]]:
             data = json.load(f)
     except FileNotFoundError:
         print(f'Error: File not found at {json_file_path}')
-        return
+        sys.exit(1)
     except json.JSONDecodeError:
         print(f'Error: Invalid JSON format in {json_file_path}')
-        return
+        sys.exit(1)
 
     rotated_data = {}
     for _, image_data in data.items():
         if 'Results' not in image_data:
-            continue #skip images without results.
+            continue  # skip images without results.
         results = image_data['Results']
         for roi_name, roi_data in results.items():
             if roi_name not in rotated_data:
                 rotated_data[roi_name] = []
 
-            # Create a new dictionary that includes the ROI data along with other image-level information.
-            image_info = {k: v for k, v in image_data.items() if k != 'Results'}  # copy all image data except for the results.
+            # Create a new dictionary that includes the ROI data along
+            # with other image-level information.
+            image_info = {
+                k: v for k, v in image_data.items() if k != 'Results'
+            }  # copy all image data except for the results.
             for k, v in roi_data.items():
                 if isinstance(v, dict):
                     for kk, vv in v.items():
                         if 'Values' in kk:
-                            continue #skip raw 'Values'
+                            continue  # skip raw 'Values'
                         image_info[f'{k}_{kk}'] = vv
                 else:
                     image_info[k] = v
@@ -77,7 +81,7 @@ def rotate_JSON_by_ROI(json_file_path: str) -> Dict[str, List[Dict[str, Any]]]:
     return rotated_data
 
 
-def create_CSV_per_ROI(dict_list: Dict[str, List[Dict[str, Any]]], out_filepath: str) -> None:
+def create_CSV_per_ROI(dict_list: Dict[str, List[Dict[str, Any]]], out_filepath: Path) -> None:
     """
     Create CSV files for each ROI from a dictionary of ROI data, organized into subdirectories.
 
@@ -87,16 +91,19 @@ def create_CSV_per_ROI(dict_list: Dict[str, List[Dict[str, Any]]], out_filepath:
     The CSV filename is derived from the ROI name, stripping the first 4 characters.
 
     Args:
-        dict_list: Dictionary where keys are ROI names and values are lists of dictionaries
-                   containing ROI data to be saved as CSV rows.
-        out_filepath: Base output directory path where subdirectories and CSV files will be created.
+        dict_list: Dictionary where keys are ROI names and values are lists of
+        dictionaries containing ROI data to be saved as CSV rows.
+        out_filepath: Base output directory path where subdirectories and CSV
+        files will be created.
 
     Returns:
-        None: The function writes files to disk and prints status messages but does not return a value.
+        None: The function writes files to disk and prints status messages
+        but does not return a value.
 
     Raises:
-        Exception: Caught internally; prints an error message if any step (directory creation,
-                   DataFrame conversion, or CSV writing) fails for an ROI.
+        Exception: Caught internally; prints an error message if any step
+        (directory creation, DataFrame conversion, or CSV writing) fails for an
+        ROI.
     """
     for roi_name, roi_data_list in dict_list.items():
         try:

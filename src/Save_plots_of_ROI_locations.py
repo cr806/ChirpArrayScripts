@@ -1,14 +1,12 @@
 import numpy as np
 import cv2 as cv
 import matplotlib.pyplot as plt
-import pandas as pd
 import json
-import itertools
 
 from pathlib import Path
 
 
-def save_plots_of_ROI_locations(root_path, path_to_first_img, roi_name, save_path='.'):
+def save_plots_of_ROI_locations(root_path, path_to_first_img, roi_name, save_path=Path('.')):
     raw_im = cv.imread(path_to_first_img, cv.IMREAD_UNCHANGED)
     raw_im = cv.normalize(raw_im, None, 0, 255, cv.NORM_MINMAX, dtype=cv.CV_8U)  # Normalize to 8-bit range (0-255)
 
