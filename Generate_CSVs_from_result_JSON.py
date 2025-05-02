@@ -5,23 +5,23 @@ from typing import Any, Dict, List
 
 import pandas as pd
 
-root = Path('/Volumes/krauss/Lisa/GMR/Array/250225/loc1_1')
-parent_filepath = Path(root, 'Split/part1')
+root = Path('/Volumes/krauss/Lisa/GMR/Array/250424/650/loc1_1')
+parent_filepath = Path(root, 'Pos0')
 filenames = [
-    Path('image_metadata_SU000001_1.json'),
-    Path('image_metadata_SU000001_2.json'),
-    Path('image_metadata_SU000001_3.json'),
-    Path('image_metadata_SU000001_4.json'),
-    Path('image_metadata_SU000001_5.json'),
-    Path('image_metadata_SU000001_6.json'),
-    Path('image_metadata_SU000001_7.json'),
-    Path('image_metadata_SU000001_8.json'),
-    Path('image_metadata_SU000001_9.json'),
-    Path('image_metadata_SU000001_10.json'),
-    Path('image_metadata_SU000001_11.json'),
-    Path('image_metadata_SU000001_12.json'),
-    Path('image_metadata_SU000001_13.json'),
-    Path('image_metadata_SU000001_14.json'),
+    Path('image_metadata_1.json'),
+    Path('image_metadata_2.json'),
+    Path('image_metadata_3.json'),
+    Path('image_metadata_4.json'),
+    Path('image_metadata_5.json'),
+    Path('image_metadata_6.json'),
+    Path('image_metadata_7.json'),
+    Path('image_metadata_8.json'),
+    Path('image_metadata_9.json'),
+    Path('image_metadata_10.json'),
+    Path('image_metadata_11.json'),
+    Path('image_metadata_12.json'),
+    Path('image_metadata_13.json'),
+    Path('image_metadata_14.json'),
 ]
 
 out_filepath = Path(root, 'Results')

@@ -1,5 +1,4 @@
 import json
-
 from pathlib import Path
 
 
@@ -22,8 +21,7 @@ def split_ROI_JSON(input_path, output_path, roi_metadata_name, num_of_files):
 
     base_size = total // num_of_files
     remainder = total % num_of_files
-    split_sizes = [base_size + (1 if i < remainder else 0)
-                for i in range(num_of_files)]
+    split_sizes = [base_size + (1 if i < remainder else 0) for i in range(num_of_files)]
 
     # Split the items into three chunks
     chunks = []
@@ -42,11 +40,12 @@ def split_ROI_JSON(input_path, output_path, roi_metadata_name, num_of_files):
             json.dump(chunk, f, indent=4)
         print(f'Saved {len(chunk)} dictionaries to {output_file}')
 
+
 if __name__ == '__main__':
     num_of_files = 14
 
     input_path = '/Volumes/krauss/Lisa/GMR/Array/250318/sensor_3_Ecoli/loc1_sensor2_1'
-    output_path = input_json_path
+    output_path = input_path
     roi_metadata_name = 'ROI_ChirpArray'
 
     split_ROI_JSON(input_path, output_path, roi_metadata_name, num_of_files)

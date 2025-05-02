@@ -12,31 +12,40 @@
 #                       Software Release: Unreleased                       #
 ############################################################################
 ############################################################################
+import datetime
 import json
-import src.path_change  # noqa
-
+import platform
 from pathlib import Path
+
+import src.path_change  # noqa
 from src.Config_loader import load_user_config
 
 
-def UOY_historical_image_list(path_to_images, image_type,
-                              sensor_ID, setup_ID,
-                              reader_ID, output_path):
-
+def UOY_historical_image_list(
+    path_to_images, image_type, sensor_ID, setup_ID, reader_ID, output_path
+):
     img_files = [f for f in Path(path_to_images).glob(f'*.{image_type.lower()}') if f.is_file()]
     img_files = sorted(img_files, key=lambda x: int(x.stem.split('_')[1]))
 
     image_metadata = {}
+    plat = platform.system()
     for idx, tf in enumerate(img_files):
+        stat_info = tf.stat()
+        if plat == 'Windows':
+            ts = stat_info.st_birthtime
+        else:
+            ts = stat_info.st_ctime
+        dt_object = datetime.datetime.fromtimestamp(ts)
+        millisecond = dt_object.microsecond // 1000
         image_metadata[tf.stem] = {
-            "Sensor ID": sensor_ID,
-            "Setup ID": setup_ID,
-            "Reader ID": reader_ID,
-            "Root Path": tf.parent.as_posix(),
-            "File Path": tf.name,
-            "Error": "None",
-            "Processed": False,
-            "Time Stamp": str(idx).zfill(6),
+            'Sensor ID': sensor_ID,
+            'Setup ID': setup_ID,
+            'Reader ID': reader_ID,
+            'Root Path': tf.parent.as_posix(),
+            'File Path': tf.name,
+            'Error': 'None',
+            'Processed': False,
+            'Time Stamp': dt_object.strftime('%Y-%m-%d_%H:%M:%S') + f'.{millisecond:03d}',
         }
         if not idx % 20:
             print(f'Processed image: {idx}')
@@ -57,6 +66,4 @@ if __name__ == '__main__':
 
     output_path = Path(data_path, f'image_metadata_SU{sensor_ID}.json')
 
-    UOY_historical_image_list(data_path, image_type,
-                              sensor_ID, setup_ID,
-                              reader_ID, output_path)
+    UOY_historical_image_list(data_path, image_type, sensor_ID, setup_ID, reader_ID, output_path)

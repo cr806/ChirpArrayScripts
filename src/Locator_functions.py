@@ -20,7 +20,7 @@ def clamp_slice(s: slice, max_size: int) -> slice:
 def find_label(target: np.ndarray, scale_factor: Tuple[float, float], params: Dict[str, Any]) -> Tuple[int, int]:
     """
     Locates a template image within a target image using template matching.
-    
+
     Args:
         target: The input image (grayscale) in which to search for the template.
         scale_factor: A tuple of (y_scale, x_scale) factors to resize the template image.
@@ -28,11 +28,11 @@ def find_label(target: np.ndarray, scale_factor: Tuple[float, float], params: Di
                 - template_path: Path to the template image file.
                 - template_area: Dictionary with 'x_slice' and 'y_slice' slice objects
                   defining the region of interest in the target image.
-    
+
     Returns:
         origin <Tuple>: A tuple containing the (x, y) coordinates of the top-left corner of the
                         matched region.
-    
+
     Note:
         The function assumes the template image should be loaded in grayscale mode.
         The coordinates returned are adjusted to account for the sliced region.
@@ -405,6 +405,8 @@ def find_all_labels(target: np.ndarray,
     _angle = np.round(chip_map_angle-chip_feature_angle, 1)
     angle_sign = np.sign(_angle)
     image_angle = np.mod(_angle, angle_sign * 180)
+    if np.isnan(image_angle):
+        image_angle = 0.0
 
 
     return scale_factor, image_angle, image_feature_details
