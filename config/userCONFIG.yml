@@ -20,10 +20,10 @@ SETUP_SERIAL_NUMBER: 000001
 SENSOR_TYPE: UoY
 
 # Data:
-ROOT_PATH: /home/chris/mnt/storage/Lisa/GMR/Array/250424/651/Loc1_1
+ROOT_PATH: /home/chris/mnt/storage/Callum/03_Data/17_array_testing
 DATA_PATH_FORMAT: date
 IMAGE_TYPE: png
-SAVE_PATH: /home/chris/mnt/storage/Lisa/GMR/Array/250424/651/Loc1_1
+SAVE_PATH: /home/chris/mnt/storage/Callum/03_Data/17_array_testing
 FIGURE_FILENAME: Lisa_ChirpArray_Ethanol
 
 # Image:

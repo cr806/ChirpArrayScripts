@@ -5,8 +5,8 @@ from typing import Any, Dict, List
 
 import pandas as pd
 
-root = Path('/Volumes/krauss/Lisa/GMR/Array/250424/650/loc1_1')
-parent_filepath = Path(root, 'Pos0')
+root = Path('/Volumes/krauss/Callum/03_Data/17_array_testing')
+parent_filepath = Path(root, 'ethanol_full_array_test_240425_flipped')
 filenames = [
     Path('image_metadata_1.json'),
     Path('image_metadata_2.json'),

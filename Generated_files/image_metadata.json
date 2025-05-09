@@ -1,3962 +1,1242 @@
 {
-    "img_000000000_Default_000": {
+    "image_20250424_162701": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000000_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_162701.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-25_11:41:17.757"
+        "Time Stamp": "2025-05-09_09:35:34.486"
     },
-    "img_000000001_Default_000": {
+    "image_20250424_162612": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000001_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_162612.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-25_11:41:16.399"
+        "Time Stamp": "2025-05-09_09:38:06.674"
     },
-    "img_000000002_Default_000": {
+    "image_20250424_161207": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000002_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_161207.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-25_11:41:16.399"
+        "Time Stamp": "2025-05-09_09:35:23.471"
     },
-    "img_000000003_Default_000": {
+    "image_20250424_160836": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000003_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_160836.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-25_11:41:16.569"
+        "Time Stamp": "2025-05-09_09:36:00.236"
     },
-    "img_000000004_Default_000": {
+    "image_20250424_163220": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000004_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_163220.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-25_11:41:16.569"
+        "Time Stamp": "2025-05-09_09:35:38.339"
     },
-    "img_000000005_Default_000": {
+    "image_20250424_164811": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000005_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_164811.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-25_11:41:16.586"
+        "Time Stamp": "2025-05-09_09:36:45.375"
     },
-    "img_000000006_Default_000": {
+    "image_20250424_161353": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000006_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_161353.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-25_11:41:16.718"
+        "Time Stamp": "2025-05-09_09:35:24.693"
     },
-    "img_000000007_Default_000": {
+    "image_20250424_162825": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000007_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_162825.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-25_11:41:16.749"
+        "Time Stamp": "2025-05-09_09:35:37.123"
     },
-    "img_000000008_Default_000": {
+    "image_20250424_164853": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000008_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_164853.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-25_11:41:16.803"
+        "Time Stamp": "2025-05-09_09:36:47.823"
     },
-    "img_000000009_Default_000": {
+    "image_20250424_164521": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000009_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_164521.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-25_11:41:16.877"
+        "Time Stamp": "2025-05-09_09:36:36.762"
     },
-    "img_000000010_Default_000": {
+    "image_20250424_162344": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000010_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_162344.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-25_11:41:16.915"
+        "Time Stamp": "2025-05-09_09:35:59.890"
     },
-    "img_000000011_Default_000": {
+    "image_20250424_161848": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000011_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_161848.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-25_11:41:16.957"
+        "Time Stamp": "2025-05-09_09:35:28.356"
     },
-    "img_000000012_Default_000": {
+    "image_20250424_163426": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000012_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_163426.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-25_11:41:17.027"
+        "Time Stamp": "2025-05-09_09:35:41.480"
     },
-    "img_000000013_Default_000": {
+    "image_20250424_163033": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000013_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_163033.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-25_11:41:17.064"
+        "Time Stamp": "2025-05-09_09:35:42.698"
     },
-    "img_000000014_Default_000": {
+    "image_20250424_162743": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000014_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_162743.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-25_11:41:17.105"
+        "Time Stamp": "2025-05-09_09:37:41.667"
     },
-    "img_000000015_Default_000": {
+    "image_20250424_161724": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000015_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_161724.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-25_11:41:17.171"
+        "Time Stamp": "2025-05-09_09:35:27.135"
     },
-    "img_000000016_Default_000": {
+    "image_20250424_164728": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000016_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_164728.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-25_11:41:17.220"
+        "Time Stamp": "2025-05-09_09:36:44.154"
     },
-    "img_000000017_Default_000": {
+    "image_20250424_161000": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000017_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_161000.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:45:51.197"
+        "Time Stamp": "2025-05-09_09:35:21.765"
     },
-    "img_000000018_Default_000": {
+    "image_20250424_164232": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000018_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_164232.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:45:51.198"
+        "Time Stamp": "2025-05-09_09:36:34.673"
     },
-    "img_000000019_Default_000": {
+    "image_20250424_164603": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000019_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_164603.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:45:51.199"
+        "Time Stamp": "2025-05-09_09:36:39.184"
     },
-    "img_000000020_Default_000": {
+    "image_20250424_160712": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000020_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_160712.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:45:55.354"
+        "Time Stamp": "2025-05-09_09:35:47.629"
     },
-    "img_000000021_Default_000": {
+    "image_20250424_161104": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000021_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_161104.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:46:00.356"
+        "Time Stamp": "2025-05-09_09:35:22.254"
     },
-    "img_000000022_Default_000": {
+    "image_20250424_160650": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000022_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_160650.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:46:05.358"
+        "Time Stamp": "2025-05-09_09:35:46.378"
     },
-    "img_000000023_Default_000": {
+    "image_20250424_162427": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000023_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_162427.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:46:10.356"
+        "Time Stamp": "2025-05-09_09:35:30.802"
     },
-    "img_000000024_Default_000": {
+    "image_20250424_162846": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000024_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_162846.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:46:15.357"
+        "Time Stamp": "2025-05-09_09:35:40.253"
     },
-    "img_000000025_Default_000": {
+    "image_20250424_160918": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000025_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_160918.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:46:20.356"
+        "Time Stamp": "2025-05-09_09:35:20.550"
     },
-    "img_000000026_Default_000": {
+    "image_20250424_164707": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000026_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_164707.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:46:25.354"
+        "Time Stamp": "2025-05-09_09:36:42.818"
     },
-    "img_000000027_Default_000": {
+    "image_20250424_160754": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000027_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_160754.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:46:30.357"
+        "Time Stamp": "2025-05-09_09:35:19.402"
     },
-    "img_000000028_Default_000": {
+    "image_20250424_162640": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000028_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_162640.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:46:35.366"
+        "Time Stamp": "2025-05-09_09:35:50.176"
     },
-    "img_000000029_Default_000": {
+    "image_20250424_161517": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000029_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_161517.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:46:40.354"
+        "Time Stamp": "2025-05-09_09:35:25.914"
     },
-    "img_000000030_Default_000": {
+    "image_20250424_160733": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000030_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_160733.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:46:45.354"
+        "Time Stamp": "2025-05-09_09:35:54.860"
     },
-    "img_000000031_Default_000": {
+    "image_20250424_163323": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000031_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_163323.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:46:50.360"
+        "Time Stamp": "2025-05-09_09:37:01.931"
     },
-    "img_000000032_Default_000": {
+    "image_20250424_163901": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000032_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_163901.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:46:55.363"
+        "Time Stamp": "2025-05-09_09:36:33.016"
     },
-    "img_000000033_Default_000": {
+    "image_20250424_163011": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000033_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_163011.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:47:00.443"
+        "Time Stamp": "2025-05-09_09:37:36.433"
     },
-    "img_000000034_Default_000": {
+    "image_20250424_163158": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000034_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_163158.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:47:05.356"
+        "Time Stamp": "2025-05-09_09:37:03.172"
     },
-    "img_000000035_Default_000": {
+    "image_20250424_161952": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000035_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_161952.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:47:10.368"
+        "Time Stamp": "2025-05-09_09:42:10.299"
     },
-    "img_000000036_Default_000": {
+    "image_20250424_164108": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000036_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_164108.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:47:15.353"
+        "Time Stamp": "2025-05-09_09:36:54.955"
     },
-    "img_000000037_Default_000": {
+    "image_20250424_160939": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000037_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_160939.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:47:20.434"
+        "Time Stamp": "2025-05-09_09:41:40.288"
     },
-    "img_000000038_Default_000": {
+    "image_20250424_161125": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000038_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_161125.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:47:25.356"
+        "Time Stamp": "2025-05-09_09:41:49.169"
     },
-    "img_000000039_Default_000": {
+    "image_20250424_164832": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000039_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_164832.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:47:30.352"
+        "Time Stamp": "2025-05-09_09:36:46.598"
     },
-    "img_000000040_Default_000": {
+    "image_20250424_160630": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000040_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_160630.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:47:35.358"
+        "Time Stamp": "2025-05-09_09:41:25.620"
     },
-    "img_000000041_Default_000": {
+    "image_20250424_164542": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000041_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_164542.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:47:40.356"
+        "Time Stamp": "2025-05-09_09:36:37.962"
     },
-    "img_000000042_Default_000": {
+    "image_20250424_161249": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000042_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_161249.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:47:45.355"
+        "Time Stamp": "2025-05-09_09:41:50.416"
     },
-    "img_000000043_Default_000": {
+    "image_20250424_162323": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000043_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_162323.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:47:50.355"
+        "Time Stamp": "2025-05-09_09:38:39.971"
     },
-    "img_000000044_Default_000": {
+    "image_20250424_161745": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000044_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_161745.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-25_11:41:17.270"
+        "Time Stamp": "2025-05-09_09:42:04.158"
     },
-    "img_000000045_Default_000": {
+    "image_20250424_164646": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000045_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_164646.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:48:00.355"
+        "Time Stamp": "2025-05-09_09:36:41.600"
     },
-    "img_000000046_Default_000": {
+    "image_20250424_163508": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000046_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_163508.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:48:05.356"
+        "Time Stamp": "2025-05-09_09:36:56.163"
     },
-    "img_000000047_Default_000": {
+    "image_20250424_163055": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000047_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_163055.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:48:10.354"
+        "Time Stamp": "2025-05-09_09:37:02.654"
     },
-    "img_000000048_Default_000": {
+    "image_20250424_164624": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000048_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_164624.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:48:15.353"
+        "Time Stamp": "2025-05-09_09:36:58.285"
     },
-    "img_000000049_Default_000": {
+    "image_20250424_162117": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000049_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_162117.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:48:20.361"
+        "Time Stamp": "2025-05-09_09:42:15.203"
     },
-    "img_000000050_Default_000": {
+    "image_20250424_161703": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000050_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_161703.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:48:25.436"
+        "Time Stamp": "2025-05-09_09:42:02.943"
     },
-    "img_000000051_Default_000": {
+    "image_20250424_162907": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000051_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_162907.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:48:30.361"
+        "Time Stamp": "2025-05-09_09:36:30.597"
     },
-    "img_000000052_Default_000": {
+    "image_20250424_163302": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000052_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_163302.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:48:35.357"
+        "Time Stamp": "2025-05-09_09:37:00.700"
     },
-    "img_000000053_Default_000": {
+    "image_20250424_162220": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000053_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_162220.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:48:40.357"
+        "Time Stamp": "2025-05-09_09:36:28.140"
     },
-    "img_000000054_Default_000": {
+    "image_20250424_162241": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000054_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_162241.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:48:45.358"
+        "Time Stamp": "2025-05-09_09:38:42.646"
     },
-    "img_000000055_Default_000": {
+    "image_20250424_164253": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000055_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_164253.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:48:50.359"
+        "Time Stamp": "2025-05-09_09:36:35.870"
     },
-    "img_000000056_Default_000": {
+    "image_20250424_163633": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000056_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_163633.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:48:55.358"
+        "Time Stamp": "2025-05-09_09:36:57.087"
     },
-    "img_000000057_Default_000": {
+    "image_20250424_162551": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000057_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_162551.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:49:00.359"
+        "Time Stamp": "2025-05-09_09:38:06.751"
     },
-    "img_000000058_Default_000": {
+    "image_20250424_160609": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000058_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_160609.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:49:05.356"
+        "Time Stamp": "2025-05-09_09:41:24.549"
     },
-    "img_000000059_Default_000": {
+    "image_20250424_161146": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000059_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_161146.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:49:10.349"
+        "Time Stamp": "2025-05-09_09:41:49.169"
     },
-    "img_000000060_Default_000": {
+    "image_20250424_162056": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000060_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_162056.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:49:15.357"
+        "Time Stamp": "2025-05-09_09:42:13.975"
     },
-    "img_000000061_Default_000": {
+    "image_20250424_163758": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000061_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_163758.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:49:20.358"
+        "Time Stamp": "2025-05-09_09:36:49.255"
     },
-    "img_000000062_Default_000": {
+    "image_20250424_164047": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000062_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_164047.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:49:25.359"
+        "Time Stamp": "2025-05-09_09:37:29.169"
     },
-    "img_000000063_Default_000": {
+    "image_20250424_162928": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000063_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_162928.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:49:30.356"
+        "Time Stamp": "2025-05-09_09:37:37.651"
     },
-    "img_000000064_Default_000": {
+    "image_20250424_163819": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000064_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_163819.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:49:35.358"
+        "Time Stamp": "2025-05-09_09:37:27.938"
     },
-    "img_000000065_Default_000": {
+    "image_20250424_161620": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000065_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_161620.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:49:40.353"
+        "Time Stamp": "2025-05-09_09:42:00.496"
     },
-    "img_000000066_Default_000": {
+    "image_20250424_162302": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000066_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_162302.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:49:45.370"
+        "Time Stamp": "2025-05-09_09:38:42.646"
     },
-    "img_000000067_Default_000": {
+    "image_20250424_164439": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000067_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_164439.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:50:02.457"
+        "Time Stamp": "2025-05-09_09:37:30.385"
     },
-    "img_000000068_Default_000": {
+    "image_20250424_164211": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000068_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_164211.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:50:02.457"
+        "Time Stamp": "2025-05-09_09:38:02.035"
     },
-    "img_000000069_Default_000": {
+    "image_20250424_163241": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000069_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_163241.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:50:02.458"
+        "Time Stamp": "2025-05-09_09:37:31.600"
     },
-    "img_000000070_Default_000": {
+    "image_20250424_163529": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000070_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_163529.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:50:05.358"
+        "Time Stamp": "2025-05-09_09:38:01.165"
     },
-    "img_000000071_Default_000": {
+    "image_20250424_162950": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000071_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_162950.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:50:10.354"
+        "Time Stamp": "2025-05-09_09:37:37.699"
     },
-    "img_000000072_Default_000": {
+    "image_20250424_162530": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000072_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_162530.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:50:15.361"
+        "Time Stamp": "2025-05-09_09:38:12.365"
     },
-    "img_000000073_Default_000": {
+    "image_20250424_162138": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000073_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_162138.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:50:20.355"
+        "Time Stamp": "2025-05-09_09:42:16.444"
     },
-    "img_000000074_Default_000": {
+    "image_20250424_161331": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000074_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_161331.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:50:25.364"
+        "Time Stamp": "2025-05-09_09:41:52.945"
     },
-    "img_000000075_Default_000": {
+    "image_20250424_163550": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000075_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_163550.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:50:30.358"
+        "Time Stamp": "2025-05-09_09:37:25.484"
     },
-    "img_000000076_Default_000": {
+    "image_20250424_161910": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000076_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_161910.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:50:35.360"
+        "Time Stamp": "2025-05-09_09:42:07.854"
     },
-    "img_000000077_Default_000": {
+    "image_20250424_163405": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000077_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_163405.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:50:40.353"
+        "Time Stamp": "2025-05-09_09:37:25.483"
     },
-    "img_000000078_Default_000": {
+    "image_20250424_161310": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000078_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_161310.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:50:45.403"
+        "Time Stamp": "2025-05-09_09:41:51.647"
     },
-    "img_000000079_Default_000": {
+    "image_20250424_162034": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000079_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_162034.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:50:50.357"
+        "Time Stamp": "2025-05-09_09:42:12.757"
     },
-    "img_000000080_Default_000": {
+    "image_20250424_162159": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000080_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_162159.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:50:55.353"
+        "Time Stamp": "2025-05-09_09:38:43.900"
     },
-    "img_000000081_Default_000": {
+    "image_20250424_163612": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000081_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_163612.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:51:00.354"
+        "Time Stamp": "2025-05-09_09:37:35.235"
     },
-    "img_000000082_Default_000": {
+    "image_20250424_161641": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000082_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_161641.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:51:05.367"
+        "Time Stamp": "2025-05-09_09:42:01.718"
     },
-    "img_000000083_Default_000": {
+    "image_20250424_163654": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000083_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_163654.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:51:10.352"
+        "Time Stamp": "2025-05-09_09:37:32.815"
     },
-    "img_000000084_Default_000": {
+    "image_20250424_164500": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000084_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_164500.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:51:15.355"
+        "Time Stamp": "2025-05-09_09:41:36.616"
     },
-    "img_000000085_Default_000": {
+    "image_20250424_162447": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000085_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_162447.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:51:20.357"
+        "Time Stamp": "2025-05-09_09:38:11.052"
     },
-    "img_000000086_Default_000": {
+    "image_20250424_164005": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000086_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_164005.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:51:25.354"
+        "Time Stamp": "2025-05-09_09:38:04.028"
     },
-    "img_000000087_Default_000": {
+    "image_20250424_163715": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000087_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_163715.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:51:30.354"
+        "Time Stamp": "2025-05-09_09:37:34.025"
     },
-    "img_000000088_Default_000": {
+    "image_20250424_164129": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000088_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_164129.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:51:35.359"
+        "Time Stamp": "2025-05-09_09:38:02.404"
     },
-    "img_000000089_Default_000": {
+    "image_20250424_162722": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000089_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_162722.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:51:40.358"
+        "Time Stamp": "2025-05-09_09:37:40.625"
     },
-    "img_000000090_Default_000": {
+    "image_20250424_161456": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000090_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_161456.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:51:45.358"
+        "Time Stamp": "2025-05-09_09:41:56.835"
     },
-    "img_000000091_Default_000": {
+    "image_20250424_161931": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000091_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_161931.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:52:01.886"
+        "Time Stamp": "2025-05-09_09:42:09.075"
     },
-    "img_000000092_Default_000": {
+    "image_20250424_161806": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000092_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_161806.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:52:01.887"
+        "Time Stamp": "2025-05-09_09:42:05.383"
     },
-    "img_000000093_Default_000": {
+    "image_20250424_161435": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000093_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_161435.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:52:01.888"
+        "Time Stamp": "2025-05-09_09:41:55.619"
     },
-    "img_000000094_Default_000": {
+    "image_20250424_161021": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000094_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_161021.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:52:05.361"
+        "Time Stamp": "2025-05-09_09:41:39.064"
     },
-    "img_000000095_Default_000": {
+    "image_20250424_163737": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000095_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_163737.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:52:10.458"
+        "Time Stamp": "2025-05-09_09:38:02.038"
     },
-    "img_000000096_Default_000": {
+    "image_20250424_163922": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000096_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_163922.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:52:15.355"
+        "Time Stamp": "2025-05-09_09:38:33.034"
     },
-    "img_000000097_Default_000": {
+    "image_20250424_163137": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000097_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_163137.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:52:20.359"
+        "Time Stamp": "2025-05-09_09:38:37.469"
     },
-    "img_000000098_Default_000": {
+    "image_20250424_164750": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000098_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_164750.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:52:25.352"
+        "Time Stamp": "2025-05-09_09:41:35.395"
     },
-    "img_000000099_Default_000": {
+    "image_20250424_162804": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000099_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_162804.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:52:30.360"
+        "Time Stamp": "2025-05-09_09:38:37.469"
     },
-    "img_000000100_Default_000": {
+    "image_20250424_160815": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000100_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_160815.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:52:35.358"
+        "Time Stamp": "2025-05-09_09:41:29.318"
     },
-    "img_000000101_Default_000": {
+    "image_20250424_164357": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000101_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_164357.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:52:40.355"
+        "Time Stamp": "2025-05-09_09:38:32.665"
     },
-    "img_000000102_Default_000": {
+    "image_20250424_164150": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000102_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_164150.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:52:45.441"
+        "Time Stamp": "2025-05-09_09:39:06.451"
     },
-    "img_000000103_Default_000": {
+    "image_20250424_161538": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000103_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_161538.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:52:50.360"
+        "Time Stamp": "2025-05-09_09:41:58.050"
     },
-    "img_000000104_Default_000": {
+    "image_20250424_163116": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000104_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_163116.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:52:55.355"
+        "Time Stamp": "2025-05-09_09:39:03.339"
     },
-    "img_000000105_Default_000": {
+    "image_20250424_161043": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000105_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_161043.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:53:00.358"
+        "Time Stamp": "2025-05-09_09:41:41.516"
     },
-    "img_000000106_Default_000": {
+    "image_20250424_161228": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000106_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_161228.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:53:05.357"
+        "Time Stamp": "2025-05-09_09:41:49.168"
     },
-    "img_000000107_Default_000": {
+    "image_20250424_163840": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000107_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_163840.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:53:10.357"
+        "Time Stamp": "2025-05-09_09:38:33.558"
     },
-    "img_000000108_Default_000": {
+    "image_20250424_164336": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000108_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_164336.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:53:15.357"
+        "Time Stamp": "2025-05-09_09:39:05.484"
     },
-    "img_000000109_Default_000": {
+    "image_20250424_163344": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000109_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_163344.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:53:20.357"
+        "Time Stamp": "2025-05-09_09:38:37.469"
     },
-    "img_000000110_Default_000": {
+    "image_20250424_163944": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000110_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_163944.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:53:25.357"
+        "Time Stamp": "2025-05-09_09:39:07.646"
     },
-    "img_000000111_Default_000": {
+    "image_20250424_164026": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000111_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_164026.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:53:30.362"
+        "Time Stamp": "2025-05-09_09:38:37.116"
     },
-    "img_000000112_Default_000": {
+    "image_20250424_161827": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000112_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_161827.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:53:35.372"
+        "Time Stamp": "2025-05-09_09:42:06.619"
     },
-    "img_000000113_Default_000": {
+    "image_20250424_160344": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000113_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_160344.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:53:40.358"
+        "Time Stamp": "2025-05-09_09:41:24.326"
     },
-    "img_000000114_Default_000": {
+    "image_20250424_163447": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000114_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_163447.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:53:45.369"
+        "Time Stamp": "2025-05-09_09:39:07.934"
     },
-    "img_000000115_Default_000": {
+    "image_20250424_162509": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000115_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_162509.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:54:02.160"
+        "Time Stamp": "2025-05-09_09:38:38.748"
     },
-    "img_000000116_Default_000": {
+    "image_20250424_164418": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000116_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_164418.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:54:02.163"
+        "Time Stamp": "2025-05-09_09:41:37.838"
     },
-    "img_000000117_Default_000": {
+    "image_20250424_161559": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000117_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_161559.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:54:02.164"
+        "Time Stamp": "2025-05-09_09:41:59.271"
     },
-    "img_000000118_Default_000": {
+    "image_20250424_160857": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000118_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_160857.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:54:05.362"
+        "Time Stamp": "2025-05-09_09:41:30.547"
     },
-    "img_000000119_Default_000": {
+    "image_20250424_162405": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000119_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_162405.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:54:10.432"
+        "Time Stamp": "2025-05-09_09:42:17.678"
     },
-    "img_000000120_Default_000": {
+    "image_20250424_162013": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000120_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_162013.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:54:15.357"
+        "Time Stamp": "2025-05-09_09:42:11.528"
     },
-    "img_000000121_Default_000": {
+    "image_20250424_160317": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000121_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_160317.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:54:20.360"
+        "Time Stamp": "2025-05-09_09:41:23.041"
     },
-    "img_000000122_Default_000": {
+    "image_20250424_164314": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000122_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_164314.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:54:25.353"
+        "Time Stamp": "2025-05-09_09:38:37.116"
     },
-    "img_000000123_Default_000": {
+    "image_20250424_161414": {
         "Sensor ID": "XXXXX",
         "Setup ID": "XXXXX",
         "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000123_Default_000.tif",
+        "Root Path": "/home/chris/mnt/storage/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped",
+        "File Path": "image_20250424_161414.png",
         "Error": "None",
         "Processed": false,
-        "Time Stamp": "2025-04-24_14:54:30.357"
-    },
-    "img_000000124_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000124_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:54:35.358"
-    },
-    "img_000000125_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000125_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:54:40.358"
-    },
-    "img_000000126_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000126_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:54:45.387"
-    },
-    "img_000000127_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000127_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:54:50.360"
-    },
-    "img_000000128_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000128_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:54:55.357"
-    },
-    "img_000000129_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000129_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:55:00.365"
-    },
-    "img_000000130_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000130_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:55:05.360"
-    },
-    "img_000000131_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000131_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:55:10.356"
-    },
-    "img_000000132_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000132_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:55:15.360"
-    },
-    "img_000000133_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000133_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:55:20.362"
-    },
-    "img_000000134_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000134_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:55:25.354"
-    },
-    "img_000000135_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000135_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:55:30.358"
-    },
-    "img_000000136_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000136_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:55:35.348"
-    },
-    "img_000000137_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000137_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:55:40.357"
-    },
-    "img_000000138_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000138_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:55:45.358"
-    },
-    "img_000000139_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000139_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:55:50.358"
-    },
-    "img_000000140_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000140_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:55:55.352"
-    },
-    "img_000000141_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000141_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:56:00.360"
-    },
-    "img_000000142_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000142_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:56:05.359"
-    },
-    "img_000000143_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000143_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:56:10.357"
-    },
-    "img_000000144_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000144_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:56:15.353"
-    },
-    "img_000000145_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000145_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:56:20.356"
-    },
-    "img_000000146_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000146_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:56:25.359"
-    },
-    "img_000000147_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000147_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:56:30.436"
-    },
-    "img_000000148_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000148_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:56:35.353"
-    },
-    "img_000000149_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000149_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:56:40.359"
-    },
-    "img_000000150_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000150_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:56:45.356"
-    },
-    "img_000000151_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000151_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:56:50.477"
-    },
-    "img_000000152_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000152_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:56:55.356"
-    },
-    "img_000000153_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000153_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:57:00.358"
-    },
-    "img_000000154_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000154_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:57:05.357"
-    },
-    "img_000000155_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000155_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:57:10.356"
-    },
-    "img_000000156_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000156_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:57:15.357"
-    },
-    "img_000000157_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000157_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:57:20.361"
-    },
-    "img_000000158_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000158_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:57:25.363"
-    },
-    "img_000000159_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000159_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:57:30.356"
-    },
-    "img_000000160_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000160_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:57:35.357"
-    },
-    "img_000000161_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000161_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:57:40.354"
-    },
-    "img_000000162_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000162_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:57:45.361"
-    },
-    "img_000000163_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000163_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:58:01.903"
-    },
-    "img_000000164_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000164_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:57:55.365"
-    },
-    "img_000000165_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000165_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:58:01.904"
-    },
-    "img_000000166_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000166_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:58:05.366"
-    },
-    "img_000000167_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000167_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:58:10.357"
-    },
-    "img_000000168_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000168_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:58:15.362"
-    },
-    "img_000000169_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000169_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:58:20.362"
-    },
-    "img_000000170_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000170_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:58:25.358"
-    },
-    "img_000000171_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000171_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:58:30.360"
-    },
-    "img_000000172_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000172_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:58:35.360"
-    },
-    "img_000000173_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000173_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:58:40.356"
-    },
-    "img_000000174_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000174_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:58:45.361"
-    },
-    "img_000000175_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000175_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:58:50.375"
-    },
-    "img_000000176_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000176_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:58:55.357"
-    },
-    "img_000000177_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000177_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:59:00.357"
-    },
-    "img_000000178_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000178_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:59:05.356"
-    },
-    "img_000000179_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000179_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:59:10.353"
-    },
-    "img_000000180_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000180_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:59:15.355"
-    },
-    "img_000000181_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000181_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:59:20.358"
-    },
-    "img_000000182_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000182_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:59:25.356"
-    },
-    "img_000000183_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000183_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:59:30.355"
-    },
-    "img_000000184_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000184_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:59:35.361"
-    },
-    "img_000000185_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000185_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:59:40.357"
-    },
-    "img_000000186_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000186_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:59:45.371"
-    },
-    "img_000000187_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000187_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:59:50.356"
-    },
-    "img_000000188_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000188_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_14:59:55.355"
-    },
-    "img_000000189_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000189_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:00:00.359"
-    },
-    "img_000000190_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000190_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:00:05.355"
-    },
-    "img_000000191_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000191_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:00:10.357"
-    },
-    "img_000000192_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000192_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:00:15.372"
-    },
-    "img_000000193_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000193_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:00:20.362"
-    },
-    "img_000000194_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000194_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:00:25.359"
-    },
-    "img_000000195_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000195_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:00:30.354"
-    },
-    "img_000000196_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000196_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:00:35.367"
-    },
-    "img_000000197_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000197_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:00:40.356"
-    },
-    "img_000000198_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000198_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:00:45.357"
-    },
-    "img_000000199_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000199_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:00:50.358"
-    },
-    "img_000000200_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000200_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:00:55.359"
-    },
-    "img_000000201_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000201_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:01:00.356"
-    },
-    "img_000000202_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000202_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:01:05.361"
-    },
-    "img_000000203_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000203_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:01:10.358"
-    },
-    "img_000000204_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000204_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:01:15.356"
-    },
-    "img_000000205_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000205_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:01:20.363"
-    },
-    "img_000000206_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000206_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:01:25.355"
-    },
-    "img_000000207_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000207_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:01:30.359"
-    },
-    "img_000000208_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000208_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:01:35.358"
-    },
-    "img_000000209_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000209_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:01:40.359"
-    },
-    "img_000000210_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000210_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:01:45.358"
-    },
-    "img_000000211_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000211_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:01:50.373"
-    },
-    "img_000000212_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000212_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:02:02.707"
-    },
-    "img_000000213_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000213_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:02:02.709"
-    },
-    "img_000000214_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000214_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:02:05.356"
-    },
-    "img_000000215_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000215_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:02:10.355"
-    },
-    "img_000000216_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000216_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:02:15.359"
-    },
-    "img_000000217_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000217_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:02:20.361"
-    },
-    "img_000000218_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000218_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:02:25.355"
-    },
-    "img_000000219_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000219_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:02:30.356"
-    },
-    "img_000000220_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000220_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:02:35.357"
-    },
-    "img_000000221_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000221_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:02:40.358"
-    },
-    "img_000000222_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000222_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:02:45.353"
-    },
-    "img_000000223_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000223_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:02:50.358"
-    },
-    "img_000000224_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000224_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:02:55.358"
-    },
-    "img_000000225_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000225_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:03:00.356"
-    },
-    "img_000000226_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000226_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:03:05.357"
-    },
-    "img_000000227_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000227_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:03:10.356"
-    },
-    "img_000000228_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000228_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:03:15.356"
-    },
-    "img_000000229_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000229_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:03:20.363"
-    },
-    "img_000000230_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000230_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:03:25.444"
-    },
-    "img_000000231_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000231_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:03:30.350"
-    },
-    "img_000000232_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000232_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:03:35.450"
-    },
-    "img_000000233_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000233_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:03:40.356"
-    },
-    "img_000000234_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000234_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:03:45.355"
-    },
-    "img_000000235_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000235_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:04:02.122"
-    },
-    "img_000000236_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000236_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:04:02.123"
-    },
-    "img_000000237_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000237_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:04:02.123"
-    },
-    "img_000000238_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000238_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:04:05.358"
-    },
-    "img_000000239_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000239_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:04:10.356"
-    },
-    "img_000000240_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000240_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:04:15.356"
-    },
-    "img_000000241_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000241_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:04:20.357"
-    },
-    "img_000000242_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000242_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:04:25.363"
-    },
-    "img_000000243_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000243_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:04:30.354"
-    },
-    "img_000000244_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000244_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:04:35.366"
-    },
-    "img_000000245_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000245_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:04:40.357"
-    },
-    "img_000000246_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000246_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:04:45.381"
-    },
-    "img_000000247_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000247_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:04:50.359"
-    },
-    "img_000000248_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000248_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:04:55.357"
-    },
-    "img_000000249_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000249_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:05:00.360"
-    },
-    "img_000000250_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000250_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:05:05.358"
-    },
-    "img_000000251_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000251_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:05:10.359"
-    },
-    "img_000000252_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000252_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:05:15.356"
-    },
-    "img_000000253_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000253_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:05:20.360"
-    },
-    "img_000000254_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000254_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:05:25.356"
-    },
-    "img_000000255_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000255_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:05:30.359"
-    },
-    "img_000000256_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000256_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:05:35.363"
-    },
-    "img_000000257_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000257_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:05:40.364"
-    },
-    "img_000000258_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000258_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:05:45.354"
-    },
-    "img_000000259_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000259_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:06:01.873"
-    },
-    "img_000000260_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000260_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:05:55.365"
-    },
-    "img_000000261_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000261_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:06:01.875"
-    },
-    "img_000000262_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000262_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:06:05.361"
-    },
-    "img_000000263_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000263_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:06:10.355"
-    },
-    "img_000000264_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000264_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:06:15.358"
-    },
-    "img_000000265_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000265_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:06:20.442"
-    },
-    "img_000000266_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000266_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:06:25.360"
-    },
-    "img_000000267_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000267_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:06:30.354"
-    },
-    "img_000000268_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000268_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:06:35.362"
-    },
-    "img_000000269_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000269_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:06:40.359"
-    },
-    "img_000000270_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000270_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:06:45.358"
-    },
-    "img_000000271_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000271_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:06:50.360"
-    },
-    "img_000000272_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000272_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:06:55.356"
-    },
-    "img_000000273_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000273_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:07:00.355"
-    },
-    "img_000000274_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000274_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:07:05.359"
-    },
-    "img_000000275_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000275_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:07:10.356"
-    },
-    "img_000000276_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000276_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:07:15.357"
-    },
-    "img_000000277_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000277_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:07:20.361"
-    },
-    "img_000000278_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000278_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:07:25.390"
-    },
-    "img_000000279_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000279_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:07:30.353"
-    },
-    "img_000000280_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000280_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:07:35.365"
-    },
-    "img_000000281_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000281_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:07:40.358"
-    },
-    "img_000000282_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000282_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:07:45.359"
-    },
-    "img_000000283_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000283_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:07:50.362"
-    },
-    "img_000000284_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000284_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:07:55.355"
-    },
-    "img_000000285_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000285_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:08:00.431"
-    },
-    "img_000000286_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000286_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:08:05.360"
-    },
-    "img_000000287_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000287_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:08:10.355"
-    },
-    "img_000000288_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000288_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:08:15.356"
-    },
-    "img_000000289_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000289_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:08:20.359"
-    },
-    "img_000000290_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000290_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:08:25.360"
-    },
-    "img_000000291_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000291_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:08:30.357"
-    },
-    "img_000000292_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000292_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:08:35.359"
-    },
-    "img_000000293_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000293_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:08:40.370"
-    },
-    "img_000000294_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000294_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:08:45.357"
-    },
-    "img_000000295_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000295_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:08:50.361"
-    },
-    "img_000000296_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000296_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:08:55.357"
-    },
-    "img_000000297_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000297_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:09:00.362"
-    },
-    "img_000000298_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000298_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:09:05.360"
-    },
-    "img_000000299_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000299_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:09:10.356"
-    },
-    "img_000000300_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000300_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:09:15.356"
-    },
-    "img_000000301_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000301_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:09:20.358"
-    },
-    "img_000000302_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000302_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:09:25.356"
-    },
-    "img_000000303_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000303_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:09:30.364"
-    },
-    "img_000000304_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000304_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:09:35.363"
-    },
-    "img_000000305_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000305_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:09:40.360"
-    },
-    "img_000000306_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000306_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:09:45.379"
-    },
-    "img_000000307_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000307_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:10:02.408"
-    },
-    "img_000000308_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000308_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:10:02.409"
-    },
-    "img_000000309_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000309_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:10:02.409"
-    },
-    "img_000000310_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000310_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:10:05.357"
-    },
-    "img_000000311_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000311_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:10:10.360"
-    },
-    "img_000000312_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000312_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:10:15.357"
-    },
-    "img_000000313_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000313_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:10:20.368"
-    },
-    "img_000000314_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000314_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:10:25.364"
-    },
-    "img_000000315_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000315_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:10:30.354"
-    },
-    "img_000000316_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000316_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:10:35.359"
-    },
-    "img_000000317_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000317_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:10:40.438"
-    },
-    "img_000000318_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000318_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:10:45.358"
-    },
-    "img_000000319_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000319_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:10:50.358"
-    },
-    "img_000000320_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000320_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:10:55.356"
-    },
-    "img_000000321_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000321_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:11:00.362"
-    },
-    "img_000000322_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000322_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:11:05.362"
-    },
-    "img_000000323_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000323_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:11:10.356"
-    },
-    "img_000000324_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000324_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:11:15.359"
-    },
-    "img_000000325_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000325_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:11:20.358"
-    },
-    "img_000000326_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000326_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:11:25.353"
-    },
-    "img_000000327_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000327_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:11:30.354"
-    },
-    "img_000000328_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000328_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:11:35.361"
-    },
-    "img_000000329_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000329_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:11:40.359"
-    },
-    "img_000000330_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000330_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:11:45.356"
-    },
-    "img_000000331_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000331_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:11:50.358"
-    },
-    "img_000000332_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000332_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:11:55.358"
-    },
-    "img_000000333_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000333_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:12:00.359"
-    },
-    "img_000000334_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000334_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:12:05.447"
-    },
-    "img_000000335_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000335_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:12:10.358"
-    },
-    "img_000000336_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000336_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:12:15.359"
-    },
-    "img_000000337_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000337_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:12:20.359"
-    },
-    "img_000000338_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000338_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:12:25.360"
-    },
-    "img_000000339_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000339_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:12:30.361"
-    },
-    "img_000000340_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000340_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:12:35.357"
-    },
-    "img_000000341_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000341_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:12:40.370"
-    },
-    "img_000000342_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000342_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:12:45.359"
-    },
-    "img_000000343_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000343_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:12:50.359"
-    },
-    "img_000000344_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000344_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:12:55.356"
-    },
-    "img_000000345_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000345_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:13:00.359"
-    },
-    "img_000000346_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000346_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:13:05.372"
-    },
-    "img_000000347_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000347_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:13:10.358"
-    },
-    "img_000000348_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000348_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:13:15.359"
-    },
-    "img_000000349_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000349_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:13:20.359"
-    },
-    "img_000000350_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000350_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:13:25.356"
-    },
-    "img_000000351_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000351_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:13:30.358"
-    },
-    "img_000000352_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000352_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:13:35.376"
-    },
-    "img_000000353_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000353_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:13:40.362"
-    },
-    "img_000000354_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000354_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:13:45.355"
-    },
-    "img_000000355_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000355_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:14:02.017"
-    },
-    "img_000000356_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000356_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:14:02.018"
-    },
-    "img_000000357_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000357_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:14:00.376"
-    },
-    "img_000000358_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000358_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:14:05.376"
-    },
-    "img_000000359_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000359_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:14:10.364"
-    },
-    "img_000000360_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000360_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:14:15.358"
-    },
-    "img_000000361_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000361_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:14:20.362"
-    },
-    "img_000000362_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000362_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:14:25.355"
-    },
-    "img_000000363_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000363_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:14:30.360"
-    },
-    "img_000000364_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000364_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:14:35.362"
-    },
-    "img_000000365_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000365_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:14:40.376"
-    },
-    "img_000000366_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000366_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:14:45.376"
-    },
-    "img_000000367_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000367_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:14:50.359"
-    },
-    "img_000000368_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000368_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:14:55.359"
-    },
-    "img_000000369_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000369_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:15:00.365"
-    },
-    "img_000000370_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000370_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:15:05.368"
-    },
-    "img_000000371_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000371_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:15:10.358"
-    },
-    "img_000000372_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000372_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:15:15.358"
-    },
-    "img_000000373_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000373_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:15:20.360"
-    },
-    "img_000000374_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000374_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:15:25.376"
-    },
-    "img_000000375_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000375_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:15:30.358"
-    },
-    "img_000000376_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000376_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:15:35.358"
-    },
-    "img_000000377_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000377_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:15:40.358"
-    },
-    "img_000000378_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000378_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:15:45.356"
-    },
-    "img_000000379_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000379_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:16:02.055"
-    },
-    "img_000000380_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000380_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:16:02.055"
-    },
-    "img_000000381_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000381_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:16:02.056"
-    },
-    "img_000000382_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000382_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:16:05.364"
-    },
-    "img_000000383_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000383_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:16:10.358"
-    },
-    "img_000000384_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000384_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:16:15.358"
-    },
-    "img_000000385_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000385_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:16:20.361"
-    },
-    "img_000000386_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000386_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:16:25.356"
-    },
-    "img_000000387_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000387_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:16:30.361"
-    },
-    "img_000000388_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000388_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:16:35.359"
-    },
-    "img_000000389_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000389_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:16:40.361"
-    },
-    "img_000000390_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000390_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:16:45.361"
-    },
-    "img_000000391_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000391_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:16:50.365"
-    },
-    "img_000000392_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000392_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:16:55.362"
-    },
-    "img_000000393_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000393_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:17:00.364"
-    },
-    "img_000000394_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000394_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:17:05.380"
-    },
-    "img_000000395_Default_000": {
-        "Sensor ID": "XXXXX",
-        "Setup ID": "XXXXX",
-        "Reader ID": "XXXXX",
-        "Root Path": "/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1/Pos0",
-        "File Path": "img_000000395_Default_000.tif",
-        "Error": "None",
-        "Processed": false,
-        "Time Stamp": "2025-04-24_15:17:10.355"
+        "Time Stamp": "2025-05-09_09:41:54.318"
     }
 }

@@ -2,17 +2,17 @@
     "chip_type": "IMEC-II_2",
     "features": [
         {
-            "label": "D-Right",
+            "label": "B-Left",
             "feature_location": [
-                1844,
-                862
+                1343,
+                4982
             ]
         },
         {
-            "label": "E-Right",
+            "label": "E-Left",
             "feature_location": [
-                1836,
-                115
+                1212,
+                698
             ]
         }
     ]

@@ -6,8 +6,8 @@ from src.Split_ROI_JSON import split_ROI_JSON
 ###############################################################################
 ## EDIT THESE VALUES ##########################################################
 
-ROOT_PATH = '/Volumes/krauss/Lisa/GMR/Array/250424/650/loc1_1'
-PATH_TO_IMAGES_METADATA = '/Volumes/krauss/Lisa/GMR/Array/250424/650/loc1_1/Pos0'
+ROOT_PATH = '/Volumes/krauss/Callum/03_Data/17_array_testing'
+PATH_TO_IMAGES_METADATA = '/Volumes/krauss/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped'
 
 IMAGE_METADATA_NAME = 'image_metadata'
 ROI_METADATA_NAME = 'ROI_ChirpArray'

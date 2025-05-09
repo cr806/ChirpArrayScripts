@@ -45,6 +45,7 @@ def find_label(target: np.ndarray, scale_factor: Tuple[float, float], params: Di
     method = cv.TM_CCOEFF_NORMED
 
     h, w = target.shape[:2]
+
     x_slice = clamp_slice(params['template_area']['x_slice'], w)
     y_slice = clamp_slice(params['template_area']['y_slice'], h)
 

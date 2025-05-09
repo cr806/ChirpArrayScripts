@@ -125,6 +125,8 @@ def generate_ROI_JSON(path_to_images, img_metadata_json, ROI_path, user_scale_fa
     im = cv2.normalize(
         im, None, 0, 255, cv2.NORM_MINMAX, dtype=cv2.CV_8U # type: ignore
     )  # Normalize to 8-bit range (0-255)
+    if len(im.shape) > 2:  # Check if the image has more than one channel (i.e., it's not already greyscale)
+        im = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY)
 
     scale_factor, image_angle, _ = find_all_labels(
         im,
@@ -153,8 +155,10 @@ def generate_ROI_JSON(path_to_images, img_metadata_json, ROI_path, user_scale_fa
             user_scale_factor,
         )
 
-    if scale_factor < (0.95 * user_scale_factor) or scale_factor > (1.05 * user_scale_factor):
-        print(f'Unexpected scale-factor: {scale_factor}')
+    print(f'Calculated scale factor: {scale_factor}')
+    print(f'User defined scale factor: {user_scale_factor}')
+    if scale_factor < (0.99 * user_scale_factor) or scale_factor > (1.01 * user_scale_factor):
+        print('Calculated scale factor is outside of user defined range.')
         print('Setting to user specified scale factor and continuing...')
         scale_factor = user_scale_factor
 

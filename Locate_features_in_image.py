@@ -71,7 +71,7 @@ def label_locator_app():
             elif event.button == 3:  # Right-click to flip
                 img = np.fliplr(img)  # Flip left-to-right
                 flipped = not flipped
-                ax.imshow(img)
+                ax.imshow(img, origin='lower')
                 # Redraw existing clicks if any
                 if clicks:
                     ax.plot([c[0] for c in clicks], [c[1] for c in clicks], 'ro')
@@ -79,7 +79,7 @@ def label_locator_app():
 
     # Set up the plot
     fig, ax = plt.subplots()
-    ax.imshow(img)
+    ax.imshow(img, origin='lower')
     ax.set_title('1. Right-click to flip image (if required)\n2. Left-click 2 label locations')
 
     # Connect event handler

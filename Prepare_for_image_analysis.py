@@ -10,15 +10,15 @@ from src.UOY_HistoricalImageList import UOY_historical_image_list
 ###############################################################################
 ## EDIT THESE VALUES ##########################################################
 
-ROOT_PATH =      '/Volumes/krauss/Lisa/GMR/Array/250424/651/loc1_1'
-PATH_TO_IMAGES = '/Volumes/krauss/Lisa/GMR/Array/250424/651/loc1_1/Pos0'
-IMAGE_TYPE =     'tif'
-IMAGE_NAME_FOR_ROI_PLOTS = 'img_000000000_Default_000'
+ROOT_PATH =      '/Volumes/krauss/Callum/03_Data/17_array_testing'
+PATH_TO_IMAGES = '/Volumes/krauss/Callum/03_Data/17_array_testing/ethanol_full_array_test_240425_flipped'
+IMAGE_TYPE =     'png'
+IMAGE_NAME_FOR_ROI_PLOTS = 'image_20250424_160317'
 
 IMAGE_METADATA_NAME = 'image_metadata'
 ROI_METADATA_NAME = 'ROI_ChirpArray'
 
-SERVER_ROOT_PATH = '/home/chris/mnt/storage/Lisa/GMR/Array/250424/651/loc1_1'
+SERVER_ROOT_PATH = '/home/chris/mnt/storage/Callum/03_Data/17_array_testing'
 
 ###############################################################################
 ###############################################################################
@@ -133,7 +133,7 @@ if skip != 'y':
 Path('Generated_files').mkdir(parents=True, exist_ok=True)
 if Path('Generated_files', 'ImageFeatures.csv').exists():
     Path('Generated_files', 'ImageFeatures.csv').unlink()
-user_scale_factor = 0.73
+user_scale_factor = 1.42
 print('\nStep 6: Generating ROI metadata...')
 generate_ROI_JSON(
     PATH_TO_IMAGES,
@@ -145,11 +145,15 @@ generate_ROI_JSON(
 # 7. Save plots of ROI locations
 print('\nStep 7: Saving ROI location plots for review...')
 path_to_first_img = Path(PATH_TO_IMAGES, f'{IMAGE_NAME_FOR_ROI_PLOTS}.{IMAGE_TYPE}')
+angle = 1.35
+offset = (0, -20)
 save_plots_of_ROI_locations(
     ROOT_PATH,
     path_to_first_img,
     Path('Generated_files', f'{ROI_METADATA_NAME}.json'),
     save_path=Path('Generated_files'),
+    angle=angle,
+    offset=offset,
 )
 
 # 8. Confirm ROI locations
@@ -158,6 +162,29 @@ roi_correct = input('\tAre the ROI locations correct? (y/n): ').lower()
 if roi_correct != 'y':
     print('\nROI locations not confirmed. Please adjust and rerun. Exiting.')
     sys.exit(1)
+
+# 8.5. Confirm user determined details
+if angle is not None:
+    print(f'\n\t{"User image angle:":<30} {angle}')
+if offset is not None:
+    print(f'\t{"User ROI offset:":<30} {offset}')
+correct_values = input('Do you want to update ROI metadata file with new values? (y/n)').lower()
+if correct_values == 'y':
+    with open(Path('Generated_files', f'{ROI_METADATA_NAME}.json'), 'r') as file:
+        roi_metadata = json.load(file)
+
+    roi_metadata['image_angle'] = angle
+    for k, v in roi_metadata.items():
+        if k == 'image_angle':
+            continue
+        y, x = v['coords']
+        x = x + offset[0]
+        y = y + offset[1]
+        roi_metadata[k]['coords'] = [y, x]
+
+    with open(Path('Generated_files', f'{ROI_METADATA_NAME}.json'), 'w') as file:
+        json.dump(roi_metadata, file, indent=4)
+
 
 # 9. Ask about analysis location
 print('\nStep 9: Analysis location selection...')
