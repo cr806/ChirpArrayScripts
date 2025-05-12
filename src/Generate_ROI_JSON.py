@@ -115,7 +115,7 @@ def generate_ROI_JSON(path_to_images, img_metadata_json, ROI_path, user_scale_fa
     user_feature_list_path = Path('config', 'FeatureLocation.json')
     image_feature_path = Path('Generated_files', 'ImageFeatures.csv')
     chip_map_path = Path('Label_templates', 'Chip_map.json')
-    template_path = Path('Label_templates', 'IMECII', 'IMEC-II_2')
+    template_path = Path('Label_templates', 'IMECII', 'IMECII_2')
 
     img_data = pd.read_json(Path(img_metadata_json))
     img_data = img_data.T.reset_index(drop=True)

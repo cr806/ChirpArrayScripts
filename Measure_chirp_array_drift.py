@@ -14,7 +14,7 @@ total_num_imgs = 443
 user_feature_list_path = Path('FeatureLocation.json')
 image_feature_path = Path('ImageFeatures.csv')
 chip_map_path = Path('Label_templates/Chip_map.json')
-template_path = Path('Label_templates/IMECII/IMEC-II_2')
+template_path = Path('Label_templates/IMECII/IMECII_2')
 user_scale_factor = (
     0.75  # Scale factor for template to image (i.e. template larger than image feature)
 )

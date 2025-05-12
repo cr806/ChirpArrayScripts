@@ -123,7 +123,7 @@
             ]
         },
         {
-            "chip_type": "IMEC-II_3",
+            "chip_type": "IMECII_3",
             "auto_locate_grating": true,
             "labels": [
                 {
@@ -512,7 +512,7 @@
             ]
         },
         {
-            "chip_type": "IMEC-II_4",
+            "chip_type": "IMECII_4",
             "auto_locate_grating": true,
             "labels": [
                 {"x-size": 500, "y-size": 700, "label": "4_large", "grating_origin": [
@@ -674,7 +674,7 @@
             ]
         },
         {
-            "chip_type": "IMEC-II_2",
+            "chip_type": "IMECII_2",
             "auto_locate_grating": true,
             "labels": [{
                     "x-size": 500,
