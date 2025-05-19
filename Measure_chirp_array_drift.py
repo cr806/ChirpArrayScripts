@@ -3,7 +3,7 @@ from pathlib import Path
 import cv2 as cv
 import matplotlib.pyplot as plt
 import pandas as pd
-from src.Locator_functions import find_all_labels
+from Locator_functions_OLD import find_all_labels
 
 root = Path('/Volumes/krauss/Lisa/GMR/Array/250225/loc1_1')
 image_dir = Path('Split/part1')

@@ -4,7 +4,8 @@ import sys
 from pathlib import Path
 
 from src.Generate_ROI_JSON import generate_ROI_JSON
-from src.Save_plots_of_ROI_locations import save_plots_of_ROI_locations
+
+# from src.Save_plots_of_ROI_locations import save_plots_of_ROI_locations
 from src.UOY_HistoricalImageList import UOY_historical_image_list
 
 ###############################################################################
@@ -84,12 +85,11 @@ print('##############################################')
 skip = input('Step 0: Do you want to skip to the ROI metadata generation step? (y/n): ')
 if skip != 'y':
     # 1. Ask user to check images and flip if required
-    print('\nStep 1: Please check images to locate two features and flip all images if required.')
+    print('\nStep 1: Please check images to locate at least two features and flip all images if required.')
     input('Press Enter when images are ready...')
 
     # 2. Confirm FeatureLocation.json is up-to-date
     print("\nStep 2: Please check 'FeatureLocation.json' and update if required.")
-    print("        NB: 'Labels' should be in alphabetic/numeric order")
     input("Press Enter when 'FeatureLocation.json' is ready...")
 
     # 3. Confirm userCONFIG.yml is up-to-date
@@ -128,32 +128,43 @@ if skip != 'y':
             Path('Generated_files', f'{IMAGE_METADATA_NAME}.json'),
         )
 
-# 6. Generate ROI metadata
+# # 6. Generate ROI metadata
+# # Make sure directory exists for generated files
+# Path('Generated_files').mkdir(parents=True, exist_ok=True)
+# if Path('Generated_files', 'ImageFeatures.csv').exists():
+#     Path('Generated_files', 'ImageFeatures.csv').unlink()
+# user_scale_factor = 1.42
+# print('\nStep 6: Generating ROI metadata...')
+# generate_ROI_JSON(
+#     PATH_TO_IMAGES,
+#     Path('Generated_files', f'{IMAGE_METADATA_NAME}.json'),
+#     Path('Generated_files', f'{ROI_METADATA_NAME}.json'),
+#     user_scale_factor,
+# )
+
+# # 7. Save plots of ROI locations
+# print('\nStep 7: Saving ROI location plots for review...')
+# path_to_first_img = Path(PATH_TO_IMAGES, f'{IMAGE_NAME_FOR_ROI_PLOTS}.{IMAGE_TYPE}')
+# angle = 1.35
+# offset = (0, -20)
+# save_plots_of_ROI_locations(
+#     ROOT_PATH,
+#     path_to_first_img,
+#     Path('Generated_files', f'{ROI_METADATA_NAME}.json'),
+#     save_path=Path('Generated_files'),
+#     angle=angle,
+#     offset=offset,
+# )
+
+# 6/7. Generate ROI metadata and save plots of ROI locations
 # Make sure directory exists for generated files
 Path('Generated_files').mkdir(parents=True, exist_ok=True)
 if Path('Generated_files', 'ImageFeatures.csv').exists():
     Path('Generated_files', 'ImageFeatures.csv').unlink()
-user_scale_factor = 1.42
 print('\nStep 6: Generating ROI metadata...')
 generate_ROI_JSON(
-    PATH_TO_IMAGES,
-    Path('Generated_files', f'{IMAGE_METADATA_NAME}.json'),
-    Path('Generated_files', f'{ROI_METADATA_NAME}.json'),
-    user_scale_factor,
-)
-
-# 7. Save plots of ROI locations
-print('\nStep 7: Saving ROI location plots for review...')
-path_to_first_img = Path(PATH_TO_IMAGES, f'{IMAGE_NAME_FOR_ROI_PLOTS}.{IMAGE_TYPE}')
-angle = 1.35
-offset = (0, -20)
-save_plots_of_ROI_locations(
-    ROOT_PATH,
-    path_to_first_img,
-    Path('Generated_files', f'{ROI_METADATA_NAME}.json'),
-    save_path=Path('Generated_files'),
-    angle=angle,
-    offset=offset,
+    Path(PATH_TO_IMAGES, f'{IMAGE_NAME_FOR_ROI_PLOTS}.{IMAGE_TYPE}'),
+    Path(f'{ROI_METADATA_NAME}.json'),
 )
 
 # 8. Confirm ROI locations
@@ -163,27 +174,27 @@ if roi_correct != 'y':
     print('\nROI locations not confirmed. Please adjust and rerun. Exiting.')
     sys.exit(1)
 
-# 8.5. Confirm user determined details
-if angle is not None:
-    print(f'\n\t{"User image angle:":<30} {angle}')
-if offset is not None:
-    print(f'\t{"User ROI offset:":<30} {offset}')
-correct_values = input('Do you want to update ROI metadata file with new values? (y/n)').lower()
-if correct_values == 'y':
-    with open(Path('Generated_files', f'{ROI_METADATA_NAME}.json'), 'r') as file:
-        roi_metadata = json.load(file)
+# # 8.5. Confirm user determined details
+# if angle is not None:
+#     print(f'\n\t{"User image angle:":<30} {angle}')
+# if offset is not None:
+#     print(f'\t{"User ROI offset:":<30} {offset}')
+# correct_values = input('Do you want to update ROI metadata file with new values? (y/n)').lower()
+# if correct_values == 'y':
+#     with open(Path('Generated_files', f'{ROI_METADATA_NAME}.json'), 'r') as file:
+#         roi_metadata = json.load(file)
 
-    roi_metadata['image_angle'] = angle
-    for k, v in roi_metadata.items():
-        if k == 'image_angle':
-            continue
-        y, x = v['coords']
-        x = x + offset[0]
-        y = y + offset[1]
-        roi_metadata[k]['coords'] = [y, x]
+#     roi_metadata['image_angle'] = angle
+#     for k, v in roi_metadata.items():
+#         if k == 'image_angle':
+#             continue
+#         y, x = v['coords']
+#         x = x + offset[0]
+#         y = y + offset[1]
+#         roi_metadata[k]['coords'] = [y, x]
 
-    with open(Path('Generated_files', f'{ROI_METADATA_NAME}.json'), 'w') as file:
-        json.dump(roi_metadata, file, indent=4)
+#     with open(Path('Generated_files', f'{ROI_METADATA_NAME}.json'), 'w') as file:
+#         json.dump(roi_metadata, file, indent=4)
 
 
 # 9. Ask about analysis location
