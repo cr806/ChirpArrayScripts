@@ -9,8 +9,7 @@ import matplotlib.patches as patches
 import matplotlib.pyplot as plt
 import numpy as np
 
-PLOT = False
-TEMPLATE_PATH_ROOT = Path(f'../Label_templates')
+TEMPLATE_PATH_ROOT = Path('..', 'Label_templates')
 
 
 ## Load user feature locations from JSON file and populate 'user_chip_mapping' dictionary
@@ -81,10 +80,57 @@ def load_json(file_path):
         return (None, f'[ERROR] An unexpected error occurred {message}: {e}')
 
 
+def save_json(file_path: Path, data):
+    message = 'at function save_json'
+
+    def convert_numpy(obj):
+        if isinstance(obj, np.ndarray):
+            return obj.tolist()
+        elif isinstance(obj, np.integer):
+            return int(obj)
+        elif isinstance(obj, np.floating):
+            return float(obj)
+        return obj
+
+    try:
+        if not isinstance(file_path, Path):
+            raise TypeError('File path must be a Path object.')
+        with open(file_path, 'w') as f:
+            json.dump(data, f, indent=4, default=convert_numpy)
+        return (None, None)
+    except TypeError as e:
+        return (None, f'[ERROR] Invalid file path type {message}: {e}')
+    except IOError as e:
+        return (None, f'[ERROR] Error writing JSON to "{file_path}" {message}: {e}')
+    except json.JSONEncodeError as e:
+        return (None, f'[ERROR] Could not encode data to JSON {message}: {e}')
+    except Exception as e:
+        return (None, f'[ERROR] An unexpected error occurred while saving JSON {message}: {e}')
+
+
+def create_directory_with_error_handling(directory_path: Path):
+    message = 'at function create_directory_with_error_handling'
+    try:
+        directory_path.mkdir(parents=True, exist_ok=True)
+        return (None, None)
+    except FileExistsError:
+        # This should be rare with exist_ok=True, but handle just in case
+        return (None, f"[WARNING] Directory '{directory_path}' already exists {message}.")
+    except FileNotFoundError as e:
+        return (None, f"[ERROR] Could not create directory '{directory_path}' - likely a permission issue) {message}: {e}")
+    except PermissionError as e:
+        return (None, f"[ERROR] Permission denied to create directory '{directory_path}' {message}: {e}")
+    except OSError as e:
+        return (None, f"[ERROR] Operating system error occurred while creating directory '{directory_path}' {message}: {e}")
+    except Exception as e:
+        return (None, f"[ERROR] An unexpected error occurred while creating directory '{directory_path}' {message}: {e}")
+
+
 def load_user_feature_locations(file_path):
     message = 'at function load_user_feature_locations'
     user_raw_data, error = load_json(file_path)
     if error:
+        error = error + f' {message}'
         return (None, error)
 
     user_chip_mapping = {}
@@ -119,7 +165,9 @@ def load_user_feature_locations(file_path):
 def get_type_of_chip(chip_type, all_chip_mappings):
     message = 'at function get_type_of_chip'
     for chip_mapping in all_chip_mappings:
-        chip_name_label = chip_mapping.get('chip_type')
+        chip_name_label = chip_mapping.get('chip_type', None)
+        if not chip_name_label:
+            return (None, f"[ERROR] Missing 'chip_type' in chip mapping {message}.")
         if chip_name_label == chip_type:
             return (chip_mapping, None)
     return (None, f"[ERROR] Chip type '{chip_type}' not found {message}.")
@@ -147,6 +195,7 @@ def get_user_label_locations_from_chip_map(chip_mapping, user_chip_mapping):
                 return (None, f"[ERROR] Missing 'label' in user chip mapping {message}.")
             feature_location, error = get_location_from_label(label, chip_mapping)
             if error:
+                error = error + f' {message}'
                 return (None, error)
             user_feature['chip_location'] = feature_location
             updated_features.append(user_feature)
@@ -159,18 +208,21 @@ def load_chip_feature_locations(file_path, user_chip_mapping):
     message = 'at function load_chip_feature_locations'
     chip_raw_data, error = load_json(file_path)
     if error:
+        error = error + f' {message}'
         return (None, error)
 
     chip_type = user_chip_mapping.get('chip_type', None)
     if not chip_type:
         return (None, f"[ERROR] Chip type '{chip_type}' not found {message}.")
 
-    chip_mapping, error = get_type_of_chip(chip_type, chip_raw_data)
+    chip_mapping, error = get_type_of_chip(chip_type, chip_raw_data['chip'])
     if error:
+        error = error + f' {message}'
         return (None, error)
 
     locations, error = get_user_label_locations_from_chip_map(chip_mapping, user_chip_mapping)
     if error:
+        error = error + f' {message}'
         return (None, error)
     return (locations, None)
 
@@ -404,10 +456,13 @@ def load_template(template_path):
 
 def get_template_image_from_label(chip_type, label):
     # TODO! Factor this filepath out
-    template_path = Path(TEMPLATE_PATH_ROOT, f'{chip_type[:-2]}', f'{label}.png')
-    # template_path = Path(f'../Label_templates/IMECII/{chip_type}/{label}.png')
+    message = 'at function get_template_image_from_label'
+    template_path = Path(TEMPLATE_PATH_ROOT, f'{chip_type[:-2]}', f'{chip_type}', f'{label}.png')
+    if not template_path.exists():
+        return (None, f'[ERROR] Template file not found at: {template_path} at {message}.')
     template, error = load_template(template_path)
     if error:
+        error = error + f' {message}'
         return (None, error)
     return (template, None)
 
@@ -434,97 +489,126 @@ def scale_template(template, scale_factor):
 
 ## Visualise results with matplotlib
 def visualize_search_window_preprocessing(
-    original_search_window, sharpened_search_window, binarized_search_window, plot=PLOT
+    original_search_window, sharpened_search_window, binarized_search_window, save_path
 ):
-    if not plot:
-        return
+    message = 'at function visualize_search_window_preprocessing'
+
+    if not isinstance(save_path, Path):
+        return (None, f"[ERROR] 'save_path' must be a pathlib.Path object {message}.")
 
     _, axes = plt.subplots(1, 3, figsize=(15, 5))
 
-    axes[0].imshow(cv2.cvtColor(original_search_window, cv2.COLOR_BGR2RGB))
-    axes[0].set_title('Original Search Window')
-    axes[0].axis('off')
+    try:
+        axes[0].imshow(cv2.cvtColor(original_search_window, cv2.COLOR_BGR2RGB))
+        axes[0].set_title('Original Search Window')
+        axes[0].axis('off')
 
-    axes[1].imshow(cv2.cvtColor(sharpened_search_window, cv2.COLOR_BGR2RGB))
-    axes[1].set_title('Sharpened Search Window')
-    axes[1].axis('off')
+        axes[1].imshow(cv2.cvtColor(sharpened_search_window, cv2.COLOR_BGR2RGB))
+        axes[1].set_title('Sharpened Search Window')
+        axes[1].axis('off')
 
-    axes[2].imshow(cv2.cvtColor(binarized_search_window, cv2.COLOR_BGR2RGB))
-    axes[2].set_title('Binarized Search Window')
-    axes[2].axis('off')
+        axes[2].imshow(cv2.cvtColor(binarized_search_window, cv2.COLOR_BGR2RGB))
+        axes[2].set_title('Binarized Search Window')
+        axes[2].axis('off')
 
-    plt.tight_layout()
-    plt.show()
+        plt.tight_layout()
+        plt.savefig(save_path)
+        plt.close()
+        return (None, None)
+    except IOError as e:
+        return (None, f"[ERROR] Error saving search window visualization to '{save_path}' {message}: {e}")
+    except Exception as e:
+        return (None, f"[ERROR] An unexpected error occurred during visualization {message}: {e}")
 
 
 def visualize_template_matching_result(
-    search_window, result, max_loc, max_val, mean_val, quality_metric, plot=PLOT
+    search_window, result, max_loc, max_val, mean_val, quality_metric, save_path
 ):
-    if not plot:
-        return
+    message = 'at function visualize_template_matching_result'
 
-    _, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 6))
+    if not isinstance(save_path, Path):
+        return (None, f"[ERROR] 'save_path' must be a pathlib.Path object {message}.")
 
-    ax1.imshow(cv2.cvtColor(search_window, cv2.COLOR_BGR2RGB))
-    ax1.set_title('Search Window')
-    circle1 = patches.Circle(max_loc, 5, color='red', fill=False)
-    ax1.add_patch(circle1)
+    try:
+        _, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 6))
 
-    ax2.imshow(result, cmap='gray')
-    ax2.set_title(
-        f'Template Matching Result\n{max_val =:.2f}\n{mean_val =:.2f}\n{quality_metric =:.2f}'
-    )
-    circle2 = patches.Circle(max_loc, 5, color='red', fill=False)
-    ax2.add_patch(circle2)
+        ax1.imshow(cv2.cvtColor(search_window, cv2.COLOR_BGR2RGB))
+        ax1.set_title('Search Window')
+        circle1 = patches.Circle(max_loc, 5, color='red', fill=False)
+        ax1.add_patch(circle1)
 
-    plt.tight_layout()
-    plt.show()
+        ax2.imshow(result, cmap='gray')
+        ax2.set_title(
+            f'Template Matching Result\n{max_val =:.2f}\n{mean_val =:.2f}\n{quality_metric =:.2f}'
+        )
+        circle2 = patches.Circle(max_loc, 5, color='red', fill=False)
+        ax2.add_patch(circle2)
+
+        plt.tight_layout()
+        plt.savefig(save_path)
+        plt.close()
+        return (None, None)
+    except IOError as e:
+        return (None, f"[ERROR] Error saving template matching visualization to '{save_path}' {message}: {e}")
+    except Exception as e:
+        return (None, f"[ERROR] An unexpected error occurred during visualization {message}: {e}")
+
 
 
 def visualize_features_with_matplotlib(
-    rotated_image, chip_mapping, feature_shape, key='features', plot=PLOT
+    rotated_image, chip_mapping, feature_shape, save_path, key='features'
 ):
-    if not plot:
-        return
+    message = 'at function visualize_features_with_matplotlib'
 
-    rotated_image_rgb = cv2.cvtColor(rotated_image, cv2.COLOR_BGR2RGB)
+    if not isinstance(save_path, Path):
+        return (None, f"[ERROR] 'save_path' must be a pathlib.Path object {message}.")
 
-    _, ax = plt.subplots(1, figsize=(12, 12))
-    ax.imshow(rotated_image_rgb)
+    try:
+        rotated_image_rgb = cv2.cvtColor(rotated_image, cv2.COLOR_BGR2RGB)
 
-    if 'features' in key:
-        features = chip_mapping.get(key, None)
-    if 'gratings' in key:
-        features = chip_mapping
+        _, ax = plt.subplots(1, figsize=(12, 12))
+        ax.imshow(rotated_image_rgb)
 
-    if features:
-        for f in features:
-            label = f.get('label')
-            if 'features' in key:
-                location = f.get('refined_location')
-            if 'gratings' in key:
-                location = f.get('grating_origin')
+        if 'features' in key:
+            features = chip_mapping.get(key, None)
+        if 'gratings' in key:
+            features = chip_mapping
 
-            if location:
-                x, y = location
-                if feature_shape:
-                    height, width = feature_shape
-                else:
-                    width = f.get('x-size')
-                    height = f.get('y-size')
+        if features:
+            for f in features:
+                label = f.get('label')
+                if 'features' in key:
+                    location = f.get('refined_location')
+                if 'gratings' in key:
+                    location = f.get('grating_origin')
 
-                rect = patches.Rectangle(
-                    (x, y), width, height, linewidth=1, edgecolor='white', facecolor='none'
-                )
-                ax.add_patch(rect)
-                ax.annotate(label, location, color='white', fontsize=8, ha='center', va='bottom')
+                if location:
+                    x, y = location
+                    if feature_shape:
+                        height, width = feature_shape
+                    else:
+                        width = f.get('x-size')
+                        height = f.get('y-size')
 
-    plt.title('Rotated Image with features highlighted')
-    plt.show()
+                    rect = patches.Rectangle(
+                        (x, y), width, height, linewidth=1, edgecolor='white', facecolor='none'
+                    )
+                    ax.add_patch(rect)
+                    ax.annotate(label, location, color='white', fontsize=8, ha='center', va='bottom')
+
+        plt.title('Rotated Image with features highlighted')
+        plt.savefig(save_path)
+        plt.close()
+        return (None, None)
+    except IOError as e:
+        return (None, f"[ERROR] Error saving visualization to '{save_path}' {message}: {e}")
+    except Exception as e:
+        return (None, f"[ERROR] An unexpected error occurred during visualization {message}: {e}")
+
 
 
 ## Find the location of the template in the image using cv2.matchTemplate
-def refine_feature_locations(image, user_chip_mapping):
+def refine_feature_locations(image, user_chip_mapping, result_save_path):
     message = 'at function refine_feature_locations'
     chip_type = user_chip_mapping.get('chip_type', None)
     if not chip_type:
@@ -544,6 +628,13 @@ def refine_feature_locations(image, user_chip_mapping):
     if not user_features:
         return (None, f"[ERROR] 'features' not found in user chip mapping {message}.")
 
+    result_save_root = Path(result_save_path.parent, 'label_locating_results')
+    result, error = create_directory_with_error_handling(result_save_root)
+    if error:
+        error = error + f' {message}'
+        return (None, error)
+    result_save_path = Path(result_save_root, result_save_path.name)
+
     for idx, f in enumerate(user_features):
         label = f.get('label')
         user_location = f.get('user_location')
@@ -559,15 +650,18 @@ def refine_feature_locations(image, user_chip_mapping):
             user_location, image_center, rotation_angle
         )
         if error:
+            error = error + f' {message}'
             return (None, error)
 
         # Load and scale template to match image size
         template, error = get_template_image_from_label(chip_type, label)
         if error:
+            error = error + f' {message}'
             return (None, error)
 
         template, error = scale_template(template, scale_factor)
         if error:
+            error = error + f' {message}'
             return (None, error)
 
         # Define a search window around the rotated initial location
@@ -595,8 +689,9 @@ def refine_feature_locations(image, user_chip_mapping):
             sharpened_search_window, 0, 255, cv2.THRESH_BINARY | cv2.THRESH_OTSU
         )
 
+        _result_save_path = result_save_path.with_name(f'{label}_pre-processing_{result_save_path.name}')
         visualize_search_window_preprocessing(
-            search_window, sharpened_search_window, binarized_search_window
+            search_window, sharpened_search_window, binarized_search_window, _result_save_path
         )
 
         # Perform template matching
@@ -607,8 +702,9 @@ def refine_feature_locations(image, user_chip_mapping):
         # Calculate quality metric (e.g., peak-to-mean ratio)
         mean_val = np.mean(result)
         quality_metric = max_val / mean_val if mean_val > 0 else 0  # Avoid division by zero
+        _result_save_path = result_save_path.with_name(f'{label}_matching_{result_save_path.name}')
         visualize_template_matching_result(
-            search_window, result, max_loc, max_val, mean_val, quality_metric
+            search_window, result, max_loc, max_val, mean_val, quality_metric, _result_save_path
         )
 
         if quality_metric > 1.5 and max_val > 0.5:
@@ -750,13 +846,15 @@ def load_and_offset_grating_data(file_path, user_chip_mapping):
     message = 'at function load_and_offset_grating_data'
     chip_raw_data, error = load_json(file_path)
     if error:
+        error = error + f' {message}'
         return (None, error)
 
     chip_type = user_chip_mapping.get('chip_type', None)
     if not chip_type:
         return (None, f"[ERROR] 'chip_type' not found in user chip mapping {message}.")
-    chip_mapping, error = get_type_of_chip(chip_type, chip_raw_data)
+    chip_mapping, error = get_type_of_chip(chip_type, chip_raw_data['chip'])
     if error:
+        error = error + f' {message}'
         return (None, error)
 
     raw_grating_mapping = chip_mapping.get('gratings', None)
@@ -767,6 +865,7 @@ def load_and_offset_grating_data(file_path, user_chip_mapping):
         raw_grating_mapping, user_chip_mapping
     )
     if error:
+        error = error + f' {message}'
         return (None, error)
     return (offset_grating_data, None)
 
